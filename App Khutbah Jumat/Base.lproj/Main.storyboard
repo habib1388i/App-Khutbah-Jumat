@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="App_Khutbah_Jumat" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iphone-7-plus-wallpaper-blue-sky-stars.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Heb-IV-Sf9">
+                                <rect key="frame" x="0.0" y="28" width="414" height="708"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Insya Alloh!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="deK-fu-X3z">
+                                <rect key="frame" x="164" y="639" width="87" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <color key="textColor" red="0.15767575282797353" green="0.35082630301903583" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bermanfaat untuk para jama'ah" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PjI-Y9-rJf">
+                                <rect key="frame" x="88" y="668" width="238" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <color key="textColor" red="0.15767575282797353" green="0.35082630301903583" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIJ-NM-d6V">
+                                <rect key="frame" x="142" y="529" width="130" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18741357326507568" green="0.31069093942642212" blue="0.42324018478393555" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Mulai"/>
+                                <connections>
+                                    <segue destination="Lyv-bt-My4" kind="modal" id="ZNM-Ba-gpK"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2017-09-21 at 8.26.00 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="2yy-Ke-Vsd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="359"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b0Q-Bc-0hU">
+                                <rect key="frame" x="101" y="567" width="212" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1874135733" green="0.31069093939999998" blue="0.42324018479999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="About Developer"/>
+                            </button>
+                        </subviews>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="138.58695652173915"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Aog-2G-xZA">
+            <objects>
+                <viewController id="Lyv-bt-My4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ujb-51-pl4"/>
+                        <viewControllerLayoutGuide type="bottom" id="kg4-cv-fpK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UBM-YY-L3h">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iphone-7-plus-wallpaper-blue-sky-stars.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Uh6-fi-V7c">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oMs-1h-YKm">
+                                <rect key="frame" x="27" y="671" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18741357326507568" green="0.31069093942642212" blue="0.42324018478393555" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="titleShadowOffset" width="30" height="22"/>
+                                <state key="normal" image="rewind-png-image-59000.png"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="modal" id="YYV-gj-FMU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAk-ta-jfu">
+                                <rect key="frame" x="349" y="671" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18741357326507568" green="0.31069093942642212" blue="0.42324018478393555" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="titleShadowOffset" width="30" height="22"/>
+                                <state key="normal" image="85878_forward_512x512.png"/>
+                                <connections>
+                                    <segue destination="iG8-M1-wWF" kind="modal" id="2uU-qJ-aac"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="51e-yy-YVy">
+                                <rect key="frame" x="20" y="174" width="374" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Dusta, Dosa Besar Yang Dianggap Biasa"/>
+                                <connections>
+                                    <segue destination="Cod-PA-8dp" kind="modal" id="CAe-Do-VYb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZYK-ug-3Cy">
+                                <rect key="frame" x="20" y="268" width="374" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Batalnya Syahadat Seorang Muslim "/>
+                                <connections>
+                                    <segue destination="SuP-YZ-fSV" kind="modal" id="bQb-Nz-mNR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kg7-Jg-Dgl">
+                                <rect key="frame" x="20" y="362" width="374" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Menyeru Kepada Alloh SWT"/>
+                                <connections>
+                                    <segue destination="zAG-s6-J8y" kind="modal" id="5b0-08-QCU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQc-xz-L1U">
+                                <rect key="frame" x="20" y="456" width="374" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Memanfaatkan Umur Yang Singkat"/>
+                                <connections>
+                                    <segue destination="YvF-sw-j58" kind="modal" id="nn9-Uk-UdX"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kaD-lm-dKc">
+                                <rect key="frame" x="0.0" y="116" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18741357326507568" green="0.31069093942642212" blue="0.42324018478393555" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem id="3qe-hL-1rj"/>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tema Khotbah.png" translatesAutoresizingMaskIntoConstraints="NO" id="nkb-gk-uwq">
+                                <rect key="frame" x="0.0" y="20" width="416" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18741357326507568" green="0.31069093942642212" blue="0.42324018478393555" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pilih Salah Satu Tema Dibawah Ini" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egd-fz-zbX">
+                                <rect key="frame" x="-2" y="111" width="418" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ok-gp-2Kb">
+                                <rect key="frame" x="20" y="550" width="374" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Kita Adalah Umat Terbaik"/>
+                                <connections>
+                                    <segue destination="hJB-ae-Fed" kind="modal" id="6L3-C6-wbD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j4y-a3-Y6h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="766.66666666666674" y="138.58695652173915"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ATo-fF-3Ux">
+            <objects>
+                <viewController id="hJB-ae-Fed" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tyK-es-rZh"/>
+                        <viewControllerLayoutGuide type="bottom" id="ksH-Do-mhj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="J0R-PI-T10">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TQ6-tO-pzt">
+                                <rect key="frame" x="202" y="72" width="10" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iphone-7-plus-wallpaper-blue-sky-stars.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UjR-BO-2OU">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cSe-1b-tBq">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1399669349193573" green="0.26108765602111816" blue="0.37476241588592529" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Jama’ah Jumat Yang dimuliakan Allah ….                                                Saat ini kita berada di sini, di hari yang terbaik ini , ….                     Karena ….Jumat adalah hari terbaik dalam sepekan yang dipilihkan Allah untuk kita) ,                                                                          … di tempat yang terbaik ini, karena masjid-masjid Allah adalah tempat yang terbaik dan paling dicintai Allah di atas muka bumi ini …, dalam amalan yang terbaik , karena shalat adalah ibadah dimana ibadah yang karenanya kita diciptakan… Mengikuti nabi dan manusia yang terbaik , Sayyidina Muhammad Shallallahu alaihi wasallam…. Maka , pada hari terbaik ini , di tempat terbaik ini, dalam amalan yang terbaik ini, dengan mengikut kepada manusia terbaik ,,, yakinlah bahwa kita umat Islam adalah umat yang terbaik , kita adalah hadiah Allah kepada manusia dan kemanusiaan …. كُنْتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ تَأْمُرُونَ بِالْمَعْرُوفِ وَتَنْهَوْنَ عَنْ الْمُنكَرِ وَتُؤْمِنُونَ بِاللَّهِ “Kalian adalah umat yang terbaik yang dilahirkan untuk manusia, menyuruh kepada yang ma’ruf, dan mencegah dari yang mungkar, dan kalian beriman kepada Allah. .” [QS. Âli Imrân: 110] Kaum muslimin yang dijayakan Allah … Peristiwa Tolikara di bumi Allah , tanah Papua sungguh menghentak nurani keummatan kita, nurani kebangsaan kita, bahkan nurani kemanusiaan kita… Sungguh memilukan , sekaligus memalukan .. Jika ada tempat di republik ini dimana orang yang hendak bertakbir mengagungkan Tuhannya dilarang, bahkan dizalimi sedemikian rupa hingga masjid mereka, tempat paling suci dan mulia terbakar … Wallahul Musta’an Sungguh ,,, api yang membakar masjid itu membakar jiwa ini, dan baranya memanaskan hati ini… Allahu Akbar..,, Namun Luthfullah , kelembutan takdir Allah sajalah yang menyiramkan kesejukan di tengah hati yang membara ini… Kesabaran kita bukan berarti kelemahan , karena umat islam sudah sedemikian toleransinya, maka kita menuntut agar semua perusuh dan teroris di Tolikara mendapat hukuman tang seberat-beratnya Ghirah dan semangat pembelaan atas umat dan hurumaatillah ( kehormatan syiar Allah ) wajib terpatri dalam diri kita,,, krena itulah tanda iman di dalam jiwa ; ذَلِكَ وَمَن يُعَظِّمْ شَعَائِرَ اللهِ فَإِنَّهَا مِن تَقْوَى الْقُلُوبِ “Demikianlah (perintah Allah). Dan barangsiapa mengagungkan syi’ar-syi’ar Allah, maka sesungguhnya itu timbul dari ketakwaan hati.” (QS. Al-Hajj: 32) Dan semoga saat ini pun kaum muslimin di Tolikara telah melaksanakan Shalat Jumat mereka yang sekaligus menjadi pertanda eksistensi iman dan Islam di sana , karena hanya dengan tauhid dan penyembahan yang murni hanya kepada Allah Ta’ala … keamanan yang hakiki dapat terwujud فَلْيَعْبُدُوا رَبَّ هَذَا الْبَيْتِ (3) الَّذِي أَطْعَمَهُم مِّن جُوعٍ وَآمَنَهُم مِّنْ خَوْف . ” Maka hendaklah mereka menyembah Tuhan Pemilik rumah ini (Ka’bah). Yang telah memberi makanan kepada mereka untuk menghilangkan lapar dan mengamankan mereka dari ketakutan.” ( QS. Qurays:3-4) Maka upaya menghalangi hamba Allah untuk menyembah kepada TuhanNya adalah upaya untuk menghalangi terwujudnya keamanan dan kesejahteraan. Namun sekali lagi kelembutan takdir Allah melampaui semua perhitungan-perhitungan logika , mengatasi semua keterbatasan manusiawi kita… و عسى أَنْ تَكْرَهُوا شَيْئًا وهُوَ خَيْرٌ لكَمْ وَعَسى أَنْ تُحِبُّوْا شَيْئا وهو شرٌّ لكم واللهُ يعلمُ وأَنْتُمْ لا تَعْلمُوْنَ “….bisa jadi kamu tidak menyenangi sesuatu, padahal ia amat baik bagimu, dan bisa jadi kamu menyukai sesuatu, padahal ia amat buruk bagimu. Allah mengetahui, sedang kamu tidak mengetahui.”(QS. Al Baqarah: 216) Kita berharap dari peristiwa ini kebaikan yang banyak dari Allah ta’ala ,, Semoga peristiwa ini memantik perhatian kita dan kepedulian kita atas saudara kita yang puluhan tahun shalat hanya di masjid kayu ,,, Semoga kejadian ini membuat kita semakin sadar bahwa kita tidak boleh lengah bahwa ada tangan- tangan jahat yang ingin negeri ini tercerai berai , yang ingin kekacauan terjadi … Kuatkan simpul-simpul iman , niscaya simpul-simpul keamanan akan semakin kuat Semoga peristiwa ini semakin membuat kita sadar untuk kembali menjalan agama kita dengan sungguh-sungguh. Kejayaan umat ini hanya dapat diraih dengan kedekatan kita kepada Allah dan SyariatNya. ألم يأن للذين آمنوا أن تخشع قلوبهم لذكر الله وما نزل من الحق ولا يكونوا كالذين أوتوا الكتاب من قبل فطال عليهم الأمد فقست قلوبهم وكثير منهم فاسقون “Belumkah datang waktunya bagi orang-orang yang beriman, umtuk tunduk hati mereka mengingat Allah dan kepada kebenaran yang telah turun (kepada mereka) , dan janganlah mereka seperti orang-orang yang sebelumnya telah diturunkan Al Kitab atas mereka kemudian berlalu masa yang panjang atas mereka lalu hati mereka menjadi keras, dan kebanyakan diantara mereka adalah orang-orang yang fasik. ( QS.Al Hadid:16) Dan krena kita adalah ummat yang terbaik , maka kitapun merespon dengan cara yang terbaik ,,,, Buktikan kepada Allah kepedulian kita kepada hamba- hambanya yang beriman …. Berikan doa terbaik kita, berikan harta kita , berikan kecerdasan kita , kepiawaian kita bahkan siapkan jiwa raga kita untuk membela kehormatan syi’ar Allah.., Kita berharap keadaan menjadi tenang dan kaum muslimin dapat leluasa beribadah dan berbuat baik bagi sesama… Kita berharap dakwah ilal haq semakin berkembang di daerah itu…. Dan seluruh penjuru Nusantara tanpa kecuali , karena tak ada se senti pun tanah itu kcuali milik Allah.
+
+</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="abn-SM-uDa">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43807569149999998" green="0.46764111520000001" blue="0.56284928320000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Kita Adalah Umat Terbaik" id="pLC-FI-x18">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="xlK-w2-oj4">
+                                            <connections>
+                                                <segue destination="Lyv-bt-My4" kind="modal" id="GVx-6x-MyU"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TVc-wq-csz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="766.66666666666674" y="857.60869565217399"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IxV-dH-Fxu">
+            <objects>
+                <viewController id="iG8-M1-wWF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TJC-gu-MTR"/>
+                        <viewControllerLayoutGuide type="bottom" id="jfp-PL-w4w"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TeF-Zc-OYt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iphone-7-plus-wallpaper-blue-sky-stars.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aGT-Ef-Rw6">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZn-Q6-CRE">
+                                <rect key="frame" x="20" y="671" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1874135733" green="0.31069093939999998" blue="0.42324018479999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="titleShadowOffset" width="30" height="22"/>
+                                <state key="normal" image="rewind-png-image-59000.png"/>
+                                <connections>
+                                    <segue destination="Lyv-bt-My4" kind="modal" id="Kr0-kk-7Nv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddv-E5-oau">
+                                <rect key="frame" x="20" y="549" width="374" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="4 Hal Penghambat Rezeki"/>
+                                <connections>
+                                    <segue destination="zOa-6E-p0c" kind="modal" id="NGs-tt-d7e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g94-IM-szM">
+                                <rect key="frame" x="20" y="455" width="374" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Menuruti Hawa Nafsu"/>
+                                <connections>
+                                    <segue destination="VHZ-LG-D5I" kind="modal" id="hJy-Oe-oZg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpw-vW-hHh">
+                                <rect key="frame" x="20" y="361" width="374" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="6 Sebab Terjadi Maksiat"/>
+                                <connections>
+                                    <segue destination="TbI-kb-cpC" kind="modal" id="7d4-uf-cUC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8I-CW-qb5">
+                                <rect key="frame" x="20" y="267" width="374" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Agar Tidak Terus Mencari Kreditan"/>
+                                <connections>
+                                    <segue destination="deh-mf-alm" kind="modal" id="TYj-I8-Hbw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bre-Mk-m4A">
+                                <rect key="frame" x="20" y="173" width="374" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="5 Kesalahan Yang Sering Ditemukan Saat Shalat Berjamaah"/>
+                                <connections>
+                                    <segue destination="Md4-oh-ARA" kind="modal" id="X2g-IX-N2Q"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kjK-nR-9m1">
+                                <rect key="frame" x="0.0" y="115" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1874135733" green="0.31069093939999998" blue="0.42324018479999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem id="EHB-e5-ewh"/>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pilih Salah Satu Tema Dibawah Ini" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NyF-xB-ax3">
+                                <rect key="frame" x="-2" y="110" width="418" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Tema Khotbah.png" translatesAutoresizingMaskIntoConstraints="NO" id="5qz-7W-jdF">
+                                <rect key="frame" x="-2" y="20" width="416" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1874135733" green="0.31069093939999998" blue="0.42324018479999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yVg-rn-W1h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1402.8985507246377" y="138.58695652173915"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qp5-hn-N0T">
+            <objects>
+                <viewController id="Cod-PA-8dp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="12I-ba-tuM"/>
+                        <viewControllerLayoutGuide type="bottom" id="w4I-Pz-fOa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pXu-H4-VgA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iphone-7-plus-wallpaper-blue-sky-stars.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="spp-9K-UL5">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2VC-R4-Gfn">
+                                <rect key="frame" x="0.0" y="72" width="414" height="664"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.15587544441223145" green="0.280234694480896" blue="0.39345699548721313" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Ibadallah,
+
+Seorang Muslim yang menginginkan keselamatan harus menjaga lidahnya dari berbicara yang membawa kepada kecelakaan. Sesungguhnya diam dari perkataan yang buruk merupakan keselamatan, dan keselamatan itu tidak ada bandingannya. Tahukah anda jaminan bagi orang yang menjaga lidahnya dengan baik? Nabi Muhammad Shallallahu ‘alaihi wa sallam bersabda:
+
+مَنْ يَضْمَنْ لِي مَا بَيْنَ لَحْيَيْهِ وَمَا بَيْنَ رِجْلَيْهِ أَضْمَنْ لَهُ الْجَنَّةَ
+
+“Siapa yang menjamin untukku apa yang ada di antara dua rahangnya dan apa yang ada di antara dua kakinya, niscaya aku menjamin surga baginya.”
+
+Beliau juga menjelaskan bahwa menjaga lidah merupakan keselamatan.
+
+عَنْ عُقْبَةَ بْنِ عَامِرٍ قَالَ قُلْتُ يَا رَسُولَ اللَّهِ مَا النَّجَاةُ قَالَ أَمْلِكْ عَلَيْكَ لِسَانَكَ وَلْيَسَعْكَ بَيْتُكَ وَابْكِ عَلَى خَطِيئَتِكَ
+
+Dari ‘Uqbah bin ‘Aamir, dia berkata: “Aku bertanya, wahai Rasûlullah, apakah sebab keselamatan?” Beliau menjawab: “Kuasailah lidahmu, hendaklah rumahmu luas bagimu, dan tangisilah kesalahanmu”.
+
+Yaitu janganlah engkau berbicara kecuali dengan perkara yang membawa kebaikanmu! Merasa betahlah tinggal di dalam rumah dengan melakukan ketaatan-ketaatan, dan hendaklah engkau menyesali kesalahanmu dengan cara menangis.
+
+Imam an-Nawawi rahimahullah (wafat 676 H) berkata, “Ketahuilah, seyogyanya setiap mukallaf (orang yang berakal dan baligh) menjaga lidahnya dari seluruh perkataan, kecuali perkataan yang jelas ada mashlahat padanya. Ketika berbicara atau meninggalkannya itu sama mashlahatnya, maka menurut Sunnah adalah menahan diri darinya (tidak mengucapkannya-red), karena perkataan mubah bisa menyeret kepada perkataan yang haram atau makruh. Dan dalam kebiasaan (manusia-red) ini banyak sekali atau mendominasi, padahal keselamatan itu tiada bandingannya. Telah diriwayatkan kepada kami dalam dua kitab Shahih yaitu Shahih al-Bukhari (no. 6475) dan Shahih Muslim (no. 47) dari Abu Hurairah Radhiyallahu anhu, dari Nabi Shallallahu ‘alaihi wa sallam, Beliau bersabda:
+
+مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ
+
+Barangsiapa beriman kepada Allah dan hari akhir, hendaklah dia berkata yang baik atau diam
+
+Aku katakan: hadits yang disepakati keshahihannya ini merupakan nash yang jelas bahwa sepantasnya seseorang tidak berbicara kecuali jika perkataan itu merupakan kebaikan, yaitu yang kemashlahatannya jelas tampak. Jika dia ragu-ragu tentang timbulnya mashlahat, maka dia tidak berbicara.
+
+Dan al-Imam asy-Syafi’i rahimahullah telah berkata, “Jika seseorang mau berbicara, maka sebelum dia berbicara hendaklah berpikir, jika tampak jelas mashlahatnya (maka) dia berbicara, dan jika dia ragu-ragu, maka dia tidak berbicara sampai jelas mashlahatnya.”
+
+Ibadallah,
+
+Nabi Shallallahu ‘alaihi wa sallam memerintahkan umatnya untuk berkata yang baik, di antara bentuk berkata yang baik adalah jujur, yaitu memberitakan sesuatu sesuai dengan hakekatnya. Beliau Shallallahu ‘alaihi wa sallam juga melarang dusta, yaitu memberitakan sesuatu yang tidak sesuai dengan hakekatnya. Dusta adalah dosa besar, al-Imam adz-Dzahabi menyebutkan di dalam kitab beliau, al-Kabair, dosa besar ke-30 “Sering Berdusta”
+
+Nabi Shallallahu ‘alaihi wa sallam menyebutkan dosa berdusta mengiringi dosa syirik dan durhaka kepada orang tua. Ini menunjukkan bahwa berdusta termasuk dosa-dosa besar yang paling besar.
+
+عَنْ عَبْدِ الرَّحْمَنِ بْنِ أَبِي بَكْرَةَ عَنْ أَبِيهِ z قَالَ قَالَ النَّبِيُّ n أَلَا أُنَبِّئُكُمْ بِأَكْبَرِ الْكَبَائِرِ ثَلَاثًا قَالُوا بَلَى يَا رَسُولَ اللَّهِ قَالَ الْإِشْرَاكُ بِاللَّهِ وَعُقُوقُ الْوَالِدَيْنِ وَجَلَسَ وَكَانَ مُتَّكِئًا فَقَالَ أَلَا وَقَوْلُ الزُّورِ قَالَ فَمَا زَالَ يُكَرِّرُهَا حَتَّى قُلْنَا لَيْتَهُ سَكَتَ
+
+Dari Abdurrahman bin Abi Bakrah, dari bapaknya Radhiyallahu anhu, dia berkata, Nabi Shallallahu ‘alaihi wa sallam bersabda, “Perhatikanlah (wahai para Sahabat), maukah aku tunjukkan kepada kalian dosa-dosa yang paling besar?” Beliau Shallallahu ‘alaihi wa sallam mengatakannya tiga kali. Kemudian para Sahabat mengatakan, “Tentu wahai Rasûlullah.” Beliau Shallallahu ‘alaihi wa sallam bersabda, “Syirik kepada Allah, durhaka kepada kedua orang tua.” Sebelumnya Beliau bersandar, lalu Beliau duduk dan bersabda, “Perhatikanlah! dan perkataan palsu (perkataan dusta)”, Beliau selalu mengulanginya sampai kami berkata, “Seandainya Beliau berhenti”.
+
+Bahaya dusta banyak sekali, antara lain bahwa orang yang berdusta akan terhalang dari hidayah, Allah Azza wa Jalla berfirman:
+
+إِنَّ اللَّهَ لَا يَهْدِي مَنْ هُوَ مُسْرِفٌ كَذَّابٌ
+
+Sesungguhnya Allah tidak menunjuki orang-orang yang melampaui batas lagi pendusta. [Al-Mukmin/Ghafir/40: 28]
+
+Demikian juga orang yang suka dusta pasti akan mendapatkan celaka! Sebagaimana firman-Nya:
+
+قُتِلَ الْخَرَّاصُونَ ﴿١٠﴾ الَّذِينَ هُمْ فِي غَمْرَةٍ سَاهُونَ
+
+Terkutuklah orang-orang yang banyak berdusta, (yaitu) orang-orang yang terbenam dalam kebodohan yang lalai. [Adz-Dzariyat/51: 10-11]
+
+Nabi Shallallahu ‘alaihi wa sallam juga menjelaskan keutamaan jujur dan bahaya dusta, sebagaimana diriwayatkan di dalam hadits di bawah ini:
+
+عَنْ عَبْدِ اللهِ، قَالَ: قَالَ رَسُولُ اللهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ : عَلَيْكُمْ بِالصِّدْقِ، فَإِنَّ الصِّدْقَ يَهْدِي إِلَى الْبِرِّ، وَإِنَّ الْبِرَّ يَهْدِي إِلَى الْجَنَّةِ، وَمَا يَزَالُ الرَّجُلُ يَصْدُقُ وَيَتَحَرَّى الصِّدْقَ حَتَّى يُكْتَبَ عِنْدَ اللهِ صِدِّيقًا، وَإِيَّاكُمْ وَالْكَذِبَ، فَإِنَّ الْكَذِبَ يَهْدِي إِلَى الْفُجُورِ، وَإِنَّ الْفُجُورَ يَهْدِي إِلَى النَّارِ، وَمَا يَزَالُ الرَّجُلُ يَكْذِبُ وَيَتَحَرَّى الْكَذِبَ حَتَّى يُكْتَبَ عِنْدَ اللهِ كَذَّابًا
+
+Dari ‘Abdullah, dia berkata: Rasulallah Shallallahu ‘alaihi wa sallam bersabda: “Kalian wajib jujur, karena sesungguhnya kejujuran itu membawa kepada kebajikan, dan kebajikan membawa kepada surga. Jika seseorang senantiasa jujur dan berusaha untuk selalu jujur, akhirnya ditulis di sisi Allah sebagai seorang yang selalu jujur. Dan jauhilah kedustaan, karena kedustaan itu membawa kepada kemaksiatan, dan kemaksiatan membawa ke neraka. Jika seseorang senantiasa berdusta dan selalu berdusta, hingga akhirnya ditulis di sisi Allah sebagai seorang pendusta.”[6]
+
+Hadits ini menjelaskan bahwa dusta akan menyeret pelakunya ke neraka, maka hendaklah kita waspada.
+
+Ibadallah,
+
+Demikian juga dusta merupakan sifat menonjol orang munafik, bukan sifat orang Mukmin.
+
+عَنْ أَبِي هُرَيْرَةَ، عَنِ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ: آيَةُ المُنَافِقِ ثَلاَثٌ: إِذَا حَدَّثَ كَذَبَ، وَإِذَا وَعَدَ أَخْلَفَ، وَإِذَا اؤْتُمِنَ خَانَ
+
+Dari Abu Hurairah, dari Nabi Shallallahu ‘alaihi wa sallam , Beliau Shallallahu ‘alaihi wa sallam bersabda, “Tanda orang munafik ada tiga: Jika dia bercerita, dia berdusta; jika dia berjanji, dia menyelisihi; dan jika dia diberi amanah, dia berkhianat”.
+
+Ibadallah,
+
+Selain berbagai keburukan di dunia, maka orang yang berdusta juga diancam dengan berbagai siksaan di akhirat. Nabi Shallallahu ‘alaihi wa sallam mengisahkan kepada para Sahabat tentang mimpi yang Beliau alami, dan mimpi Nabi adalah haq. Beliau mengisahkan bahwa Beliau Shallallahu ‘alaihi wa sallam didatangi oleh dua orang laki-laki yang membawanya melihat berbagai siksaan yang dialami oleh orang-orang yang berbuat dosa. Beliau Shallallahu ‘alaihi wa sallam bersabda:
+
+قَالاَ لِي: انْطَلِقِ انْطَلِقْ ” قَالَ: ” فَانْطَلَقْنَا، فَأَتَيْنَا عَلَى رَجُلٍ مُسْتَلْقٍ لِقَفَاهُ، وَإِذَا آخَرُ قَائِمٌ عَلَيْهِ بِكَلُّوبٍ مِنْ حَدِيدٍ، وَإِذَا هُوَ يَأْتِي أَحَدَ شِقَّيْ وَجْهِهِ فَيُشَرْشِرُ شِدْقَهُ إِلَى قَفَاهُ، وَمَنْخِرَهُ إِلَى قَفَاهُ، وَعَيْنَهُ إِلَى قَفَاهُ
+
+Kedua laki-laki itu berkata, “Ayo berangkat, ayo berangkat!”. Kemudian kami berangkat, lalu kami mendatangi seorang laki-laki yang berbaring terlentang. Dan ada laki-laki lain yang sedang berdiri di dekatnya membawa gancu besi. Lalu laki-laki itu mendatangi satu sisi wajahnya lalu merobek ujung mulutnya sampai ke tengkuknya, dan merobek hidungnya sampai ke tengkuknya, dan merobek matanya sampai ke tengkuknya”.
+
+Kemudian dua orang laki-laki itu menjelaskan kepada Nabi Shallallahu ‘alaihi wa sallam , tentang orang yang mendapatkan siksaan di atas:
+
+وَأَمَّا الرَّجُلُ الَّذِي أَتَيْتَ عَلَيْهِ، يُشَرْشَرُ شِدْقُهُ إِلَى قَفَاهُ، وَمَنْخِرُهُ إِلَى قَفَاهُ، وَعَيْنُهُ إِلَى قَفَاهُ، فَإِنَّهُ الرَّجُلُ يَغْدُو مِنْ بَيْتِهِ، فَيَكْذِبُ الكَذْبَةَ تَبْلُغُ الآفَاقَ
+
+Adapun laki-laki yang engkau datangi, ujung mulutnya disobek sampai ke tengkuknya, dan hidungnya dirobek sampai ke tengkuknya, dan matanya dirobek sampai ke tengkuknya, dia adalah orang yang keluar dari rumahnya, lalu dia berdusta dengan kedustaan yang mencapai segala penjuru.[8]
+
+Setelah kita memahami bahaya dusta sebagaimana di atas, maka kita harus berusaha selalu jujur dan menjauhi kedustaan dengan semua jenisnya. Semoga Allah menjauhkan kita dari seluruh kemaksiatan dan membimbing kita dalam perkara yang Dia ridhoi dan cintai, sesungguhnya Allah Maha Pemurah lagi Maha Mulia.</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kxh-LZ-gx3">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43807569149999998" green="0.46764111520000001" blue="0.56284928320000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Dusta, Dosa Besar Yang Dianggap Biasa" id="eC3-k1-rga">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="ZlX-V5-TmQ">
+                                            <connections>
+                                                <segue destination="Lyv-bt-My4" kind="modal" id="x00-MV-Ena"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LWC-3w-x8W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2040.5797101449277" y="138.58695652173915"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TGY-cK-GLG">
+            <objects>
+                <viewController id="Md4-oh-ARA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ofa-p2-kaI"/>
+                        <viewControllerLayoutGuide type="bottom" id="7ku-Ge-f1i"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hyA-au-2PS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iphone-7-plus-wallpaper-blue-sky-stars.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="N4F-u7-sFF">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ofd-7c-Kd1">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.091567166149616241" green="0.21474048495292664" blue="0.34094536304473877" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Kaum muslimin jama’ah shalat Jum’at yang semoga senantiasa dirahmati oleh Allah Ta’ala …
+ 
+Kita tahu bahwa shalat berjamaah sangat ditekankan terutama bagi kaum pria. Namun ada yang belum memahami mengenai aturan-aturan dalam shalat berjamaah. Ada yang hanya memahami ilmu turun-temurun, padahal kita harus bertambah baik dari sebelumnya.
+Berikut akan dijelaskan lima kesalahan yang sering ditemukan terkait shalat berjamaah.
+ 
+Pertama adalah kurang perhatian dengan shalat berjamaah, dikira shalat berjamaah bagi pria tidaklah wajib.
+Cukup yang jadi dalil wajibnya shalat berjamaah adalah perintah Nabi shallallahu ‘alaihi wa sallam pada seorang yang buta.
+‘Abdullah Ibnu Ummi Maktum berkata,
+يَا رَسُولَ اللَّهِ إِنَّ الْمَدِينَةَ كَثِيرَةُ الْهَوَامِّ وَالسِّبَاعِ. فَقَالَ النَّبِىُّ -صلى الله عليه وسلم- أَتَسْمَعُ حَىَّ عَلَى الصَّلاَةِ حَىَّ عَلَى الْفَلاَحِ فَحَىَّ هَلاَ
+“Wahai Rasulullah, di Madinah banyak sekali tanaman dan binatang buas. Nabi shallallahu ‘alaihi wa sallam bersabda, “Apakah kamu mendengar seruan adzan hayya ‘alash sholah, hayya ‘alal falah? Jika iya, penuhilah seruan adzan tersebut.” (HR. Abu Daud, no. 553 dan An-Nasa’i, no. 852. Al-Hafizh Abu Thahir mengatakan bahwa hadits ini shahih)
+Ibnul Mundzir rahimahullah berkata, “Jika seorang buta tidaklah diberi keringanan, ia tetap disuruh shalat berjamaah oleh Rasul shallallahu ‘alaihi wa sallam, bagaimanakah dengan yang diberi karunia penglihatan?” (Lihat Ash-Shalah wa Hukmu Tarikiha, hlm. 108)
+Ingat juga apa yang telah dikatakan oleh Imam Syafi’i rahimahullah,
+وَأَمَّا الجَمَاعَةُ فَلاَ اُرَخِّصُ فِي تَرْكِهَا إِلاَّ مِنْ عُذْرٍ
+“Adapun shalat jama’ah, aku tidaklah memberi keringanan bagi seorang pun untuk meninggalkannya kecuali bila ada udzur.” (Lihat Ash-Shalah wa Hukmu Tarikiha, hlm. 107)
+ 
+Kedua, baru masuk masjid kalau sudah dikumandangkan iqamah. Awalnya sudah hadir, namun masih nongkrong di luar masjid. Kalau sudah iqamah kadang yang belum berwudhu, akhirnya terburu-buru untuk berwudhu.
+Ingatlah kalau kita datang duluan di masjid lalu selalu bertakbir pertama (takbiratul ihram) bersama imam, maka akan dapat keutamaan yang besar yaitu terbebas dari api neraka dan terbebas dari sifat kemunafikan.
+Dari Anas bin Malik radhiyallahu ‘anhu, Rasulullah shallallahu ‘alaihi wa sallam bersabda,
+مَنْ صَلَّى لِلَّهِ أَرْبَعِينَ يَوْمًا فِى جَمَاعَةٍ يُدْرِكُ التَّكْبِيرَةَ الأُولَى كُتِبَتْ لَهُ بَرَاءَتَانِ بَرَاءَةٌ مِنَ النَّارِ وَبَرَاءَةٌ مِنَ النِّفَاقِ
+“Siapa yang melaksanakan shalat karena Allah selama empat puluh hari secara berjamaah, ia tidak luput dari takbiratul ihram bersama imam, maka ia akan dicatat terbebas dari dua hal yaitu terbebas dari siksa neraka dan terbebas dari kemunafikan.” (HR. Tirmidzi, no. 241. Syaikh Al-Albani menyatakan bahwa hadits ini hasan dalam Silsilah Al-Ahadits Ash-Shahihah, no. 2652)
+Adapun yang biasanya cepat-cepat berwudhu ketika sudah berkumandang iqamah, hati-hati akan terkena ancaman sebagaimana disebutkan dalam hadits berikut dari ‘Abdullah bin ‘Amr, ia berkata,
+“Kami pernah kembali bersama Rasulullah shallallahu ‘alaihi wa sallam dari Makkah menuju Madinah hingga sampai di air di tengah jalan, sebagian orang tergesa-gesa untuk shalat ‘Ashar, lalu  mereka berwudhu dalam keadaan terburu-buru. Kami pun sampai pada mereka dan melihat air tidak menyentuh tumit mereka. Rasulullah shallallahu ‘alaihi wa sallam lantas bersabda,
+وَيْلٌ لِلأَعْقَابِ مِنَ النَّارِ أَسْبِغُوا الْوُضُوءَ
+“Celakalah tumit-tumit dari api neraka. Sempurnakanlah wudhu kalian.” (HR. Muslim, no. 241).
+ 
+Ketiga, enggan shalat tahiyatul masjid, langsung duduk. Juga seringnya yang telat datang Jumatan langsung duduk ketika imam sedang berkhutbah tanpa mau mengerjakan shalat tahiyatul masjid dahulu.
+Coba perhatikan hadits berikut,
+“Dari Jabir bin ‘Abdullah, ia berkata, Sulaik Al-Ghathafani datang pada hari Jum’at dan Rasulullah shallallahu ‘alaihi wa sallam sedang berkhutbah, lantas Sulaik masuk masjid lalu langsung duduk.” Rasulullah shallallahu ‘alaihi wa sallam di tengah-tengah khutbah berkata padanya,
+يَا سُلَيْكُ قُمْ فَارْكَعْ رَكْعَتَيْنِ وَتَجَوَّزْ فِيهِمَا – ثُمَّ قَالَ – إِذَا جَاءَ أَحَدُكُمْ يَوْمَ الْجُمُعَةِ وَالإِمَامُ يَخْطُبُ فَلْيَرْكَعْ رَكْعَتَيْنِ وَلْيَتَجَوَّزْ فِيهِمَا
+“Wahai Sulaik, berdirilah, lakukanlah shalat dua raka’at. Kerjakanlah sekedar yang wajib saja dalam dua raka’at tersebut. Kemudian ia berkata, “Jika salah seorang di antara kalian datang pada hari Jum’at dan imam sedang berkhutbah, maka lakukanlah shalat dua raka’at. Namun cukupkanlah dengan yang wajib saja (ringkaslah, pen-).” (HR. Muslim, no. 875)
+ 
+Keempat, lebih cepat gerakannya dari imam dalam shalat berjamaah.
+Coba perhatikan hadits yang menunjukkan larangan keras bagi orang yang mendahului imam.
+Dari Abu Hurairah radhiyallahu ‘anhu, Rasulullah shallallahu ‘alaihi wa sallam bersabda,
+أَمَا يَخْشَى الَّذِى يَرْفَعُ رَأْسَهُ قَبْلَ الإِمَامِ أَنْ يُحَوِّلَ اللَّهُ رَأْسَهُ رَأْسَ حِمَارٍ
+“Tidakkah orang yang mengangkat kepalanya sebelum imam akan Allah rubah kepalanya menjadi kepala himar (keledai).” (HR. Muslim, no. 427)
+Kata Imam Ibnul ‘Imad Al-Aqfahsi Asy-Syafi’i rahimahullah dalam Al-Qaul At-Taam fii Ahkam Al-Ma’mum wa Al-Imam (hlm. 38), makna hadits tersebut adalah Allah merubah kepala orang yang mendahului imam itu dengan kepala keledai, badannya tetap badan manusia. Makna lainnya kata beliau pula, bisa jadi seluruh tubuhnya jadi keledai. Hal ini nyata bisa terjadi perubahan bentuk -moga Allah menyelamatkan kita darinya-. Perubahan rupa seperti ini bisa terjadi hanya karena lantaran sangat-sangat murka. Sebagaimana dalam ayat lain juga disebutkan,
+قُلْ هَلْ أُنَبِّئُكُمْ بِشَرٍّ مِنْ ذَلِكَ مَثُوبَةً عِنْدَ اللَّهِ مَنْ لَعَنَهُ اللَّهُ وَغَضِبَ عَلَيْهِ وَجَعَلَ مِنْهُمُ الْقِرَدَةَ وَالْخَنَازِيرَ
+“Katakanlah: “Apakah akan aku beritakan kepadamu tentang orang-orang yang lebih buruk pembalasannya dari (orang-orang fasik) itu disisi Allah, yaitu orang-orang yang dikutuki dan dimurkai Allah, di antara mereka (ada) yang dijadikan kera dan babi.” (QS. Al-Maidah: 60)
+
+Ma’asyirol muslimin jama’ah shalat Jumat rahimani wa rahimakumullah …
+Setelah kita melihat empat kesalahan terkait shalat berjamaah. Ada hal kelima yang sering kita temukan pula kesalahannya, yaitu enggan meluruskan dan merapatkan shaf shalat.
+Pertama, perintah meluruskan shaf shalat dapat dilihat dalam hadits dari An-Nu’man bin Basyir radhiyallahu ‘anhuma, ia berkata bahwa Rasulullah shallallahu ‘alaihi wa sallam bersabda,
+لَتُسَوُّنَّ صُفُوفَكُمْ أَوْ لَيُخَالِفَنَّ اللَّهُ بَيْنَ وُجُوهِكُمْ
+“Hendaknya kalian meluruskan shaf kalian atau tidak Allah akan membuat wajah kalian berselisih.” (HR. Bukhari, no. 717 dan Muslim, no. 436).
+Imam Nawawi rahimahullah berkata, “Tidak lurusnya shaf akan menimbulkan permusuhan dan kebencian, serta membuat hati kalian berselisih.” (Syarh Shahih Muslim, 4: 157)
+ 
+Adapun mengenai cara merapatkan shaf disebutkan dalam hadits Anas berikut.
+عَنْ أَنَسٍ عَنِ النَّبِىِّ – صلى الله عليه وسلم – قَالَ « أَقِيمُوا صُفُوفَكُمْ فَإِنِّى أَرَاكُمْ مِنْ وَرَاءِ ظَهْرِى » . وَكَانَ أَحَدُنَا يُلْزِقُ مَنْكِبَهُ بِمَنْكِبِ صَاحِبِهِ وَقَدَمَهُ بِقَدَمِهِ
+“Dari Anas radhiyallahu ‘anhu, dari Nabi shallallahu ‘alaihi wa sallam, beliau bersabda, ”Luruskanlah shaf kalian, aku melihat kalian dari belakang punggungku.” Lantas salah seorang di antara kami melekatkan pundaknya pada pundak temannya, lalu kakinya pada kaki temannya.” (HR. Bukhari, no. 725).
+ 
+Apa keutamaan merapatkan shaf?
+Dari ‘Aisyah radhiyallahu ‘anha, Rasulullah shallallahu ‘alaihi wa sallam bersabda,
+مَنْ سَدَّ فُرْجَةً بَنَى اللهُ لَهُ بَيْتًا فِي الجَنَّةِ وَرَفَعَهُ بِهَا دَرَجَةً
+“Barang siapa yang menutupi suatu celah (dalam shaf), niscaya Allah akan mengangkat derajatnya karena hal tersebut dan akan dibangunkan untuknya sebuah rumah di dalam surga.” (HR. Al-Muhamili dalam Al-Amali, 2: 36. Disebutkan dalam Silsilah Al-Ahadits Ash-Shahihah, no. 1892)
+Merapatkan shaf juga akan membuat setan tidak menempati celah yang kosong. Dari Abu Umamah radhiyallahu ‘anhu, Rasulullah shallallahu ‘alaihi wa sallam ketika merapatkan shaf, beliau mengatakan,
+وَسُدُّوا الْخَلَلَ؛ فَإِنَّ الشَّيْطَانَ يَدْخُلُ فِيمَا بَيْنَكُمْ بِمَنْزِلَةِ الْحَذَفِ
+“Tutup setiap celah shaf, karena setan masuk di antara shaf kalian seperti anak domba.” (HR. Ahmad, 5: 262. Kata Syaikh Syu’aib Al-Arnauth hadits ini shahih lighairihi).
+Kesimpulan kita ada lima kesalahan terkait shalat berjamaah yang sudah dibahas, maka seharusnya yang dilakukan:
+- Shalat berjamaah itu wajib sehingga berusaha untuk terus menjaganya.
+- Jangan sampai telat dari takbiratul ihram bersama imam, termasuk pula jangan cepat-cepat dalam berwudhu.
+- Hendaklah tetap memperhatikan shalat tahiyatul masjid setiap kali masuk masjid, jangan sampai menganggap remeh.
+- Jangan sampai mendahului imam dalam shalat berjamaah.
+- Menjaga lurus dan rapatnya shaf dalam shalat berjamaah.
+ 
+Moga Allah subhanahu wa ta’ala membetulkan ibadah-ibadah kita dengan terus diberi taufik dalam ilmu, serta moga ibadah-ibadah kita diterima di sisi-Nya.
+
+</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4ZU-fH-E5f">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43807569149999998" green="0.46764111520000001" blue="0.56284928320000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="5 Kesalahan Yang Sering Ditemukan Saat Sholat Berjamaah" id="Ey7-dl-csd">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="ryh-l3-3B0">
+                                            <connections>
+                                                <segue destination="Lyv-bt-My4" kind="modal" id="Rsv-Ls-Hv4"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W0g-Gg-rYZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1402.8985507246377" y="857.60869565217399"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YYK-s9-F7n">
+            <objects>
+                <viewController id="deh-mf-alm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hbj-jb-HDm"/>
+                        <viewControllerLayoutGuide type="bottom" id="cpX-eX-nUv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PcN-5O-aCY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iphone-7-plus-wallpaper-blue-sky-stars.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="AaK-1S-ouE">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6XU-pL-jSN">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.12796744704246521" green="0.23412349820137024" blue="0.34094536304473877" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Para jama’ah shalat Jum’at rahimani wa rahimakumullah …
+Kita diperintahkan untuk senantiasa bersyukur pada Allah atas nikmat yang telah diberikan kepada kita sekalian. Moga dengan banyak bersyukur, kita akan terus ditambahkan nikmat lainnya dan bersyukur itu dimulai dari yang sedikit.
+Dari An-Nu’man bin Basyir radhiyallahu ‘anhuma, Nabi shallallahu ‘alaihi wa sallam bersabda,
+مَنْ لَمْ يَشْكُرِ الْقَلِيلَ لَمْ يَشْكُرِ الْكَثِيرَ
+“Barang siapa yang tidak mensyukuri yang sedikit, maka ia tidak akan mampu mensyukuri sesuatu yang banyak.” (HR. Ahmad, 4/278. Syaikh Al Albani mengatakan bahwa hadits ini hasan sebagaimana dalam As Silsilah Ash Shohihah no. 667).
+Allah Ta’ala berfirman,
+لَئِنْ شَكَرْتُمْ لَأَزِيدَنَّكُمْ
+“Jika kalian mau bersyukur, maka Aku sungguh akan menambah nikmat bagi kalian.” (QS. Ibrahim: 7)
+Syukur inilah yang mesti kita buktikan dengan takwa sebagaimana yang Allah perintahkan,
+يَا أَيُّهَا الَّذِينَ آَمَنُوا اتَّقُوا اللَّهَ حَقَّ تُقَاتِهِ وَلَا تَمُوتُنَّ إِلَّا وَأَنْتُمْ مُسْلِمُونَ
+“Hai orang-orang yang beriman, bertakwalah kepada Allah sebenar-benar takwa kepada-Nya; dan janganlah sekali-kali kamu mati melainkan dalam keadaan beragama Islam.” (QS. Ali Imran: 102)
+Shalawat dan salam semoga tercurah kepada nabi akhir zaman, yang telah mendapatkan mukjizat paling besar dan menjadi pembuka pintu surga, yaitu nabi besar kita Muhammad shallallahu ‘alaihi wa sallam, kepada keluarga, sahabat dan setiap orang yang mengikuti salaf tersebut dengan baik hingga akhir zaman.
+Hari Jum’at ini diperintahkan banyak bershalawat pada Nabi.
+Rasulullah shallallahu ‘alaihi wa sallam bersabda,
+أَكْثِرُوا عَلَىَّ مِنَ الصَّلاَةِ فِى كُلِّ يَوْمِ جُمُعَةٍ فَإِنَّ صَلاَةَ أُمَّتِى تُعْرَضُ عَلَىَّ فِى كُلِّ يَوْمِ جُمُعَةٍ ، فَمَنْ كَانَ أَكْثَرَهُمْ عَلَىَّ صَلاَةً كَانَ أَقْرَبَهُمْ مِنِّى مَنْزِلَةً
+“Perbanyaklah shalawat kepadaku pada setiap Jum’at. Karena shalawat umatku akan diperlihatkan padaku pada setiap Jum’at. Barangsiapa yang banyak bershalawat kepadaku, dialah yang paling dekat denganku pada hari kiamat nanti.” (HR. Baihaqi dalam Sunan Al Kubro. Hadits ini hasan ligoirihi –yaitu hasan dilihat dari jalur lainnya-)
+ 
+Para jama’ah shalat Jum’at yang semoga terus mendapatkan berkah dan rahmat dari Allah …
+Gencarnya media dalam menampilkan kehidupan yang serba mewah telah memacu masyarakat untuk hidup konsumsif. Fenomena ini tidak hanya terjadi di kota-kota besar, namun sudah merambah ke pelosok-pelosok desa.
+Seiring dengan menjamurnya lembaga-lembaga keuangan yang memberikan kredit dengan syarat yang sangat mudah, masyarakat yang konsumtif merasa dimudahkan dalam membeli segala sesuatu untuk memenuhi hasratnya. Tinggal mengisi formulir pengajuan kredit dan menandatanganinya, barang pun akan terbeli. Cara pelunasan jadi urusan belakang.
+Yang penting, nikmati dulu barangnya, nikmati rasa gengsi yang timbul karena membeli barang mahal. Manfaat barang yang dibeli justru seringkali sekadar menjadi pertimbangan kedua.
+Masalah mulai timbul ketika tagihan kredit datang pada kemudian hari. Ternyata jumlahnya membengkak akibat sistem “bunga berbunga” yang diterapkan.
+Intinya, masyarakat pada zaman penuh “wah” saat ini mau-mau saja terjun ke dalam praktik riba asalkan bisa mendapat barang mewah impiannya. Benarlah sabda Rasulullah shallallahu ‘alaihi wa sallam,
+لَيَأْتِيَنَّ عَلَى النَّاسِ زَمَانٌ لاَ يُبَالِى الْمَرْءُ بِمَا أَخَذَ الْمَالَ ، أَمِنْ حَلاَلٍ أَمْ مِنْ حَرَامٍ
+“Akan datang suatu zaman ketika manusia tidak lagi peduli dari mana mereka mendapatkan harta, apakah dari usaha yang halal atau yang haram.” (HR. Bukhari, no. 2083, dari Abu Hurairah)
+Tentu Allah tidak meridhai hal ini, bahkan Allah memurkainya. Lalu bagaimana kiat agar kita tidak mudah terjerumus dalam praktik riba?
+ 
+Ada beberapa saran dari kami dalam khutbah Jumat kali ini. Moga bisa diambil hikmah-hikmahnya.
+ 
+1-  Berilmu dulu
+Dalam bertindak, Islam selalu mengajarkan agar umatnya berilmu terlebih dahulu. Dalam masalah ibadah, Islam mengajarkan hal ini agar amalan seseorang tidak sia-sia. Dalam masalah muamalah pun demikian. Jika tidak diindahkan, seorang muslim bisa terjerumus ke dalam sesuatu yang diharamkan. Misalnya seorang pedagang hendaklah paham seputar hukum jual beli. Jika ia tidak memahaminya, bisa jadi ia memakan riba atau menikmati rezeki dengan cara yang tidak halal. ‘Ali bin Abi Thalib radhiyallahu ‘anhu mengatakan,
+مَنْ اتَّجَرَ قَبْلَ أَنْ يَتَفَقَّهَ ارْتَطَمَ فِي الرِّبَا ثُمَّ ارْتَطَمَ ثُمَّ ارْتَطَمَ
+“Barang siapa yang berdagang namun belum memahami ilmu agama maka dia pasti akan terjerumus dalam riba, kemudian dia akan terjerumus ke dalamnya dan terus menerus terjerumus.” (Lihat Mughni Al-Muhtaj, 6:310.)
+Hal di atas bukan hanya berlaku bagi penjual atau pedagang, namun berlaku juga untuk pembeli. Pembeli pun harus tahu seluk beluk jual beli sebelum bertindak.
+Kalau kita bahas masalah utang, utang itu harus dikembalikan dengan yang semisal, tidak boleh ada tambahan. Jika tidak, maka terjerumus dalam riba.
+Ibnu Taimiyyah rahimahullah menyatakan,
+القَرْضُ مُوْجِبُهُ رَدُّ المِثْلِ
+“Utang wajib dikembalikan oleh si peminjam dengan yang semisal.” (Majmu’ah Al-Fatawa, 29:52 dan 30:84)
+ 
+2- Semakin takut kepada riba dengan mengetahui bahayanya
+a- Semua yang terlibat di dalam transaksi riba terkena laknat
+Dari Jabir bin ‘Abdillah radhiyallahu ‘anhu; beliau berkata,
+لَعَنَ رَسُولُ اللَّهِ صلى الله عليه وسلم آكِلَ الرِّبَا وَمُوكِلَهُ وَكَاتِبَهُ وَشَاهِدَيْهِ، وَقَالَ: هُمْ سَوَاءٌ.
+“Rasulullah shallallahu ‘alaihi wa sallam melaknat pemakan riba (rentenir), orang yang menyerahkan riba (nasabah), pencatat riba (sekretaris), dan dua orang saksinya.” Beliau mengatakan, “Mereka semua itu sama (dalam melakukan hal yang haram).” (HR. Muslim, no. 1598)
+ 
+b- Pada hari kiamat diancam dengan perut yang besar seperti rumah dan dipenuhi dengan ular-ular
+Dari Abu Hurairah radhiyallahu ‘anhu; Rasulullah shallallahu ‘alaihi wa sallam bersabda,
+أَتَيْتُ لَيْلَةَ أُسْرِىَ بِى عَلَى قَوْمٍ بُطُونُهُمْ كَالْبُيُوتِ فِيهَا الْحَيَّاتُ تُرَى مِنْ خَارِجِ بُطُونِهِمْ، فَقُلْتُ: مَنْ هَؤُلاَءِ يَا جِبْرَائِيلُ؟ قَالَ: هَؤُلاَءِ أَكَلَةُ الرِّبَا.
+“Pada malam Isra’, aku mendatangi suatu kaum yang perutnya sebesar rumah dan dipenuhi dengan ular-ular. Ular tersebut terlihat dari luar. Aku pun bertanya, ‘Siapakah mereka, wahai Jibril?’ ‘Mereka adalah para pemakan riba,’ jawab beliau.” (HR. Ibnu Majah, no. 2273; Ahmad, 2:353 dan 2:363. Sanad hadits ini dha’if sebagaimana kata Al-Hafizh Abu Thahir. Di dalam sanadnya terdapat Abu Ash-Shalet yang majhul.)
+ 
+c- Dosa riba yang paling ringan seperti menzinai ibu kandung sendiri
+Dari Abu Hurairah radhiyallahu ‘anhu; Rasulullah shallallahu ‘alaihi wa sallam bersabda,
+الرِّبَا سَبْعُونَ حُوبًا أَيْسَرُهَا أَنْ يَنْكِحَ الرَّجُلُ أُمَّهُ
+“Riba terdiri atas tujuh puluh dosa. Yang paling ringan adalah seperti seseorang menzinai ibu kandungnya sendiri.” (HR. Ibnu Majah, no. 2274. Al-Hafizh Abu Thahir mengatakan bahwa hadits ini hasan.)
+ 
+Walaupun kita beralasan, “Aah tidak masalah, kami berutang riba tetap bayar tepat waktu kok.”
+Riba tetaplah riba, itu bukanlah jalan yang diridhai dan tidak diberkahi.
+ 
+3- Tidak bermudah-mudahan dalam berutang
+Ingat saja hadits Nabi berikut supaya kita takut untuk berutang, bukan senang menambah utang.
+Dari Shuhaib Al-Khair radhiyallahu ‘anhu; Rasulullah shallallahu ‘alaihi wa sallam bersabda,
+أَيُّمَا رَجُلٍ يَدَيَّنُ دَيْنًا وَهُوَ مُجْمِعٌ أَنْ لاَ يُوَفِّيَهُ إِيَّاهُ لَقِىَ اللَّهَ سَارِقًا
+“Siapa saja yang berutang lalu berniat tidak mau melunasinya, dia akan bertemu dengan Allah (pada hari kiamat) dalam status sebagai pencuri.” (HR. Ibnu Majah, no. 2410. Al-Hafizh Abu Thahir mengatakan bahwa hadits ini hasan.)
+Al-Munawi mengatakan, “Orang seperti ini akan dikumpulkan bersama golongan pencuri dan akan diberi balasan sebagaimana mereka.” (Faidh Al-Qadir, 3:181)
+ 
+4- Memiliki sifat qana’ah (nrimo ing pandum)
+Dari Abu Hurairah radhiyallahu ‘anhu; Nabi Muhammad shallallahu ‘alaihi wa sallam bersabda,
+لَيْسَ الْغِنَى عَنْ كَثْرَةِ الْعَرَضِ ، وَلَكِنَّ الْغِنَى غِنَى النَّفْسِ
+“Kaya bukanlah diukur dengan banyaknya kemewahan dunia. Namun kaya (ghina’) adalah hati yang selalu merasa cukup.” (HR. Bukhari, no. 6446 dan Muslim, no. 1051).
+Kata para ulama, “Kaya hati adalah merasa cukup kepada segala hal yang engkau butuhkan. Jika lebih dari itu dan terus engkau cari maka itu berarti bukanlah ghina’ (kaya hati), namun malah fakir (hati yang miskin).” (Lihat Fath Al-Bari, 11:272.)
+Bila seseorang memiliki sifat qana’ah, ia akan menjadikan kebutuhan hidupnya sesuai standar kemampuan, tak perlu lagi baginya menambah utangan.
+Oleh sebab itu, Nabi shallallahu ‘alaihi wa sallam memanjatkan doa untuk meminta sifat qana’ah (selalu merasa cukup), seperti dalam doa berikut,
+اللَّهُمَّ إنِّي أسْألُكَ الهُدَى ، والتُّقَى ، والعَفَافَ ، والغِنَى
+ALLOOHUMMA INNII AS-ALUKAL HUDAA WAT TUQOO WAL ‘AFAAFA WAL GHINAA
+“Ya Allah, aku meminta kepada-Mu petunjuk (dalam ilmu dan amal), ketakwaan, sifat ‘afaf (menjaga diri dari hal yang haram), dan sifat ghina’ (hati yang selalu merasa cukup atau qana’ah).” (HR. Muslim, no. 2721; dari ‘Abdullah)
+‘Afaf artinya menjaga iffah (harga diri dan kehormatan), menjaga diri dari hal-hal yang tidak baik, serta menjauhkan diri dari syubhat (hal yang masih samar). Imam Nawawi rahimahullah menyatakan, “’Afaf adalah menahan diri dari hal yang haram serta menjauhkan diri dari hal-hal yang menjatuhkan kehormatan. Ulama lain mengungkapkan ‘iffah (sama dengan ‘afaf) adalah menahan diri dari yang tidak halal.” (Syarh Shahih Muslim, 12:94)
+ 
+5- Berada dalam majelis ilmu dan komunitas anti-riba
+Sebagai muslim, kita diperintahkan untuk memiliki teman yang baik sehingga bisa mendukung kita melakukan kebaikan dan meninggalkan kebaikan, termasuk meninggalkan riba.
+Carilah teman yang seperti pemilik minyak wangi. Diriwayatkan dari Abu Musa radhiyallahu ‘anhu; Nabi shallallahu ‘alaihi wa sallam bersabda,
+مَثَلُ الْجَلِيسِ الصَّالِحِ وَالْجَلِيسِ السَّوْءِ كَمَثَلِ صَاحِبِ الْمِسْكِ وَكِيرِ الْحَدَّادِ ، لاَ يَعْدَمُكَ مِنْ صَاحِبِ الْمِسْكِ إِمَّا تَشْتَرِيهِ أَوْ تَجِدُ رِيحَهُ ، وَكِيرُ الْحَدَّادِ يُحْرِقُ بَدَنَكَ أَوْ ثَوْبَكَ أَوْ تَجِدُ مِنْهُ رِيحًا خَبِيثَةً
+“Seseorang yang duduk (berteman) dengan orang shalih dan orang yang jelek bagaikan berteman dengan pemilik minyak wangi dan pandai besi. Pemilik minyak wangi tidak akan merugikanmu; engkau bisa membeli (minyak wangi) darinya atau minimal engkau mendapat baunya. Adapun berteman dengan pandai besi, jika engkau tidak mendapati badan atau pakaianmu hangus terbakar, minimal engkau mendapat baunya yang tidak enak.” (HR. Bukhari, no. 2101)
+Ahli hikmah juga menuturkan,
+يُظَنُّ بِالمرْءِ مَا يُظَنُّ بِقَرِيْنِهِ
+“Seseorang itu bisa dinilai dari orang yang menjadi teman dekatnya.”
+Semoga Allah memberikan kita jalan keluar dalam utang kita.
+
+Ma’asyirol muslimin jama’ah shalat Jumat rahimani wa rahimakumullah …
+Ada beberapa solusi agar kita tidak terjerumus dalam berutang dengan cara riba.
+- Berilmu lebih dulu dengan rajin hadir dalam majelis ilmu.
+- Semakin takut kepada riba dan riba tidak pernah diridhai Allah, serta jauh dari berkah.
+- Tidak bermudah-mudahan dalam berutang.
+- Milikilah sifat nerimo atau qana’ah, merasa cukup dengan segala yang Allah beri.
+- Berteman dengan orang-orang yang bisa menjauhkan kita dari riba.
+ 
+Pegang prinsip mulai saat ini: STOP NAMBAH UTANG!
+ 
+Demikian khutbah kami untuk Jumat kali ini. Semoga kita diberikan kemudahan dalam hal rezeki dan diangkat dari kesulitan utang, serta dijauhkan memakan riba.</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z0q-F0-VeF">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43807569149999998" green="0.46764111520000001" blue="0.56284928320000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Agar Tidak Terus Mencari Kreditan" id="mhy-mm-Z67">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="U2n-XB-7hS">
+                                            <connections>
+                                                <segue destination="Lyv-bt-My4" kind="modal" id="02m-hU-ydb"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tHx-4X-R1S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2040.5797101449277" y="857.60869565217399"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ssv-gg-hJF">
+            <objects>
+                <viewController id="VHZ-LG-D5I" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EWC-lc-UG3"/>
+                        <viewControllerLayoutGuide type="bottom" id="vTV-m2-pVh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4M0-WT-iuY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iphone-7-plus-wallpaper-blue-sky-stars.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="2qo-mH-BcS">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gI1-hj-Go8">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43807569149999998" green="0.46764111520000001" blue="0.56284928320000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Menuruti Hawa Nafsu" id="AiV-Gn-sMM">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="fo8-RR-HSc">
+                                            <connections>
+                                                <segue destination="Lyv-bt-My4" kind="modal" id="ynK-7F-ap2"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Zs-mh-B01">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.15190762281417847" green="0.25724723935127258" blue="0.36726653575897217" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Para jama’ah shalat Jum’at rahimani wa rahimakumullah …
+Kita diperintahkan untuk senantiasa bersyukur pada Allah atas nikmat yang telah diberikan kepada kita sekalian. Bentuk syukur ini sebagaimana dikatakan oleh Abu Hazim, seorang ulama yang zuhud di masa silam,
+“Engkau tahan anggota badanmu dari maksiat dan engkau gunakan dalam ketaatan pada Allah.” (Jami’ Al-‘Ulum wa Al-Hikam, 2: 84)
+Syukur inilah yang kita buktikan dengan takwa sebagaimana yang Allah perintahkan,
+يَا أَيُّهَا الَّذِينَ آَمَنُوا اتَّقُوا اللَّهَ حَقَّ تُقَاتِهِ وَلَا تَمُوتُنَّ إِلَّا وَأَنْتُمْ مُسْلِمُونَ
+“Hai orang-orang yang beriman, bertakwalah kepada Allah sebenar-benar takwa kepada-Nya; dan janganlah sekali-kali kamu mati melainkan dalam keadaan beragama Islam.” (QS. Ali Imran: 102)
+Shalawat dan salam semoga tercurah kepada nabi akhir zaman, yang telah mendapatkan mukjizat paling besar dan menjadi pembuka pintu surga, yaitu nabi besar kita Muhammad shallallahu ‘alaihi wa sallam, kepada keluarga, sahabat dan setiap orang yang mengikuti salaf tersebut dengan baik hingga akhir zaman.
+Ingatlah tentang Nabi kita shallallahu ‘alaihi wa sallam disebutkan dalam hadits Tsauban radhiyallahu ‘anhu, beliau bersabda,
+وَإِنَّهُ سَيَكُونُ فِي أُمَّتِي ثَلَاثُونَ كَذَّابُونَ كُلُّهُمْ يَزْعُمُ أَنَّهُ نَبِيٌّ وَأَنَا خَاتَمُ النَّبِيِّينَ لَا نَبِيَّ بَعْدِي
+“Sesungguhnya akan ada pada umatku 30 orang pendusta yang mengaku Nabi. Padahal akulah penutup para nabi, tidak ada nabi lagi sesudahku.” (HR. Abu Daud, no. 4252; Muslim, no. 2889. Syaikh Al-Albani mengatakan bahwa hadits ini shahih)
+ 
+Kaum muslimin Jamaah Shalat Jumat yang moga senantiasa mendapatkan limpahan kebaikan dari Allah Ta’ala …
+ 
+Allah Ta’ala mengingatkan agar kita tidak menuruti hawa nafsu seperti yang pernah diingatkan pada Nabi Daud ‘alaihis salam,
+يَا دَاوُودُ إِنَّا جَعَلْنَاكَ خَلِيفَةً فِي الْأَرْضِ فَاحْكُمْ بَيْنَ النَّاسِ بِالْحَقِّ وَلَا تَتَّبِعِ الْهَوَى فَيُضِلَّكَ عَنْ سَبِيلِ اللَّهِ إِنَّ الَّذِينَ يَضِلُّونَ عَنْ سَبِيلِ اللَّهِ لَهُمْ عَذَابٌ شَدِيدٌ بِمَا نَسُوا يَوْمَ الْحِسَابِ
+“Hai Daud, sesungguhnya Kami menjadikan kamu khalifah (penguasa) di muka bumi, maka berilah keputusan (perkara) di antara manusia dengan adil dan janganlah kamu mengikuti hawa nafsu, karena ia akan menyesatkan kamu dari jalan Allah. Sesungguhnya orang-orang yang sesat darin jalan Allah akan mendapat azab yang berat, karena mereka melupakan hari perhitungan.” (QS. Shaad: 26)
+Dalam ayat lainnya juga diingatkan,
+فَلِذَلِكَ فَادْعُ وَاسْتَقِمْ كَمَا أُمِرْتَ وَلَا تَتَّبِعْ أَهْوَاءَهُمْ
+“Maka karena itu serulah (mereka kepada agama ini) dan tetaplah sebagai mana diperintahkan kepadamu dan janganlah mengikuti hawa nafsu mereka.” (QS. Asy-Syura: 15)
+ 
+Walau memang nafsu adalah suatu yang pasti ada pada diri manusia. Kalau tidak ada nafsu makan, nafsu minum, nafsu pada wanita, tentu ia akan sulit mempertahankan hidup dan sulit untuk menikah dan menyukai lawan jenisnya.
+Ibnu Taimiyah dalam Majmu’ah Al-Fatawa (10: 635)menyatakan, “Adanya nafsu dan syahwat itu sendiri tidaklah berakibat seseorang dihukum. Seseorang baru dikatakan terkena hukuman ketika ia menuruti nafsunya sehingga yang ia harus lakukan adalah melarang nafsunya (untuk melanggar larangan Allah). Melarang nafsu yang akan salah itulah yang masuk ibadah dan amal shalih.”
+Coba perhatikan hadits berikut.
+Dari Abu Hurairah radhiyallahu ‘anhu, Rasulullah shallallahu ‘alaihi wa sallam bersabda,
+كُتِبَ عَلَى ابْنِ آدَمَ نَصِيبُهُ مِنَ الزِّنَى مُدْرِكٌ ذَلِكَ لاَ مَحَالَةَ فَالْعَيْنَانِ زِنَاهُمَا النَّظَرُ وَالأُذُنَانِ زِنَاهُمَا الاِسْتِمَاعُ وَاللِّسَانُ زِنَاهُ الْكَلاَمُ وَالْيَدُ زِنَاهَا الْبَطْشُ وَالرِّجْلُ زِنَاهَا الْخُطَا وَالْقَلْبُ يَهْوَى وَيَتَمَنَّى وَيُصَدِّقُ ذَلِكَ الْفَرْجُ وَيُكَذِّبُهُ
+“Setiap anak Adam telah ditakdirkan bagian untuk berzina dan ini suatu yang pasti terjadi, tidak bisa tidak. Zina kedua mata adalah dengan melihat. Zina kedua telinga dengan mendengar. Zina lisan adalah dengan berbicara. Zina tangan adalah dengan meraba (menyentuh). Zina kaki adalah dengan melangkah. Zina hati adalah dengan menginginkan dan berangan-angan. Lalu kemaluanlah yang nanti akan membenarkan atau mengingkari yang demikian.” (HR. Muslim, no. 6925).
+Lihatlah bukan karena kita punya mata, telinga, lisan, tangan, kaki hingga hati yang membuat kita dihukum. Namun karena menuruti keinginan jelek dari anggota tubuh tersebut.
+Perlu dipahami dahulu, dikarenakan mengikuti hawa nafsu itulah yang dapat mengarahkan kita pada kerusakan. Nafsu jelek bisa mengantarkan pada kesyirikan. Nafsu jelek bisa mengantarkan pada malas beribadah karena lebih senang untuk tidur dibanding bangun untuk shalat shubuh. Nafsu jelek juga bisa mengantarkan pada maksiat dan amalan yang tidak ada tuntunan.
+Oleh karenanya kita mesti mengendalikan hawa nafsu dan tidak mengikutinya terus. Bagaimana caranya?
+Coba ketahui sebab-sebabnya dan itulah yang diperbaiki.
+ 
+Pertama: Membiasakannya sejak kecil
+Kalau mengikuti hawa nafsu sudah dibiasakan sejak kecil, maka akan terus seperti itu hingga seseorang dewasa.
+Karenanya orang tua tidak baik memanjakan anaknya dengan enggan membangunkannya shalat Shubuh. Kadang orang tua beralasa, “Ah dia masih ngantuk, kasihan dibangunkan.”
+Namun kalau anak meminta mainan, bahkan ada yang merusak dan melalaikan, malah ketika itu dituruti.
+Hati-hati terus mengikuti keinginan anak, karena ada yang sekedar nafsunya sehingga orang tua harus menimbang-nimbang manakah yang maslahat.
+Kedua: Duduk-duduk dengan pengikut hawa nafsu
+Ingat duduk-duduk dengan pengikut hawa nafsu, bermajelis dengan para pemabuk, pemain judi, orang yang akhlaknya rusak hingga dengan orang yang amalannya asal-asalan, hanya membuat kita terpengaruh.
+Karena ingat,
+الصَّاحِبُ سَاحِبٌ
+“Sahabat itu sifatnya menarik.”
+ 
+Ketiga: Kurang mengenal hak Allah tidak mengenal akhirat dengan baik
+Karena kalau seseorang terus memikirkan dunia dan lalai dari akhirat, hawa nafsunya akan selalu dituruti.
+ 
+Keempat: Kurang amar ma’ruf nahi mungkar
+Kalau tidak saling mengingatkan, maka yang ada adalah maksiat akan terus ada di tengah masyarakat kita dan banyak yang menuruti hawa nafsu. Allah Subhanahu wa Ta’ala memerintahkan,
+وَأْمُرْ بِالْمَعْرُوفِ وَانْهَ عَنِ الْمُنْكَرِ وَاصْبِرْ عَلَى مَا أَصَابَكَ إِنَّ ذَلِكَ مِنْ عَزْمِ الأمُورِ
+“Dan suruhlah (manusia) mengerjakan yang baik dan cegahlah (mereka) dari perbuatan yang mungkar dan bersabarlah terhadap apa yang menimpa kamu. Sesungguhnya yang demikian itu termasuk hal-hal yang diwajibkan (oleh Allah).” (QS. Luqman: 17)
+ 
+Kelima: Cinta dunia dan terus tersibukkan dengan dunia
+Sifat ini akan membuat kita terus menuruti hawa nafsu.
+Keenam: Tidak mengetahui bahaya karena menuruti hawa nafsu
+Padahal mengikuti hawa nafsu itu amat berbahaya, dapat membuat kita lalai dari kewajiban, terjerumus dalam dosa besar hingga berbuat syirik pada Allah.
+
+Jamaah Shalat Jumat yang moga senantiasa diberkahi oleh Allah Ta’ala …
+ 
+Kalau kita sudah mengetahui sebab-sebab yang membuat kita mengikuti hawa nafsu, lalu bagaimana cara mengobatinya?
+ 
+Pertama: Kembali pada Allah, banyak ingat akhirat
+Karena nurut pada dunia, tidak membuat kita kekal di dunia. Rumah, mobil, motor, sawah, kekayaan yang kita miliki tidak bisa membuat kita abadi di dunia. Hidup kita ada batasnya, sehingga butuh nafsu itu dikendalikan.
+ 
+Kedua: Melawan hawa nafsu, tidak menurutinya
+Hawa nafsu selamanya tidak dituruti. Kalau nafsu mengajak kita malas untuk beribadah, maka kita paksa dan lawan dengan bangkit dan bangun dari kemalasan kita.
+ 
+Ketiga: Berteman dengan orang shalih dan bermajelis dengan ulama
+Seperti dengan berada di majelis ilmu dan pengajian.
+Demikian khutbah kali ini, moga Allah menjauhkan kita dari nafsu yang mengajak kepada kejelekan.
+ 
+Jamaah Shalat Jumat yang moga senantiasa dirahmati oleh Allah Ta’ala …
+</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X0m-Ky-Oxu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3327.5362318840585" y="857.60869565217399"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RCv-F3-rlH">
+            <objects>
+                <viewController id="zOa-6E-p0c" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Oi9-Hv-Gc9"/>
+                        <viewControllerLayoutGuide type="bottom" id="LDU-Tj-lid"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6Tw-aT-x1M">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iphone-7-plus-wallpaper-blue-sky-stars.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0ts-TN-146">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gO1-xf-vmM">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43807569149999998" green="0.46764111520000001" blue="0.56284928320000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="4 Hal Penghambat Rezeki" id="VRd-yf-Tud">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="NUa-Hl-thF">
+                                            <connections>
+                                                <segue destination="Lyv-bt-My4" kind="modal" id="H9V-0U-QgP"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kxy-Ls-P9U">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1399669349193573" green="0.26108765602111816" blue="0.37476241588592529" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Ma’asyirol muslimin rahimani wa rahimakumullah …
+Segala puji kita panjatkan pada Allah atas berbagai macam nikmat yang telah Allah anugerahkan pada kita sekalian. Allah masih memberikan kita nikmat sehat, umur panjang. Juga lebih dari itu, kita masih diberikan nikmat iman dan Islam.
+Apa pun nikmat yang Allah berikan patut kita syukuri walau itu sedikit.
+مَنْ لَمْ يَشْكُرِ الْقَلِيلَ لَمْ يَشْكُرِ الْكَثِيرَ
+“Barang siapa yang tidak mensyukuri yang sedikit, maka ia sulit untuk mensyukuri sesuatu yang banyak.” (HR. Ahmad, 4: 278. Syaikh Al-Albani mengatakan bahwa hadits ini hasan sebagaimana dalam As Silsilah Ash Shohihah no. 667)
+Semoga kita menjadi hamba Allah yang bersyukur dan dapat memanfaatkan nikmat yang ada dalam ketaatan dan ketakwaan pada Allah.
+Shalawat dan salam semoga tercurahkan kepada junjungan dan suri tauladan kita, Nabi besar kita Muhammad shallallahu ‘alaihi wa sallam, juga kepada para sahabat, para tabi’in, serta para ulama yang telah memberikan contoh yang baik pada kita.
+ 
+Kata Ibnul Qayyim dalam kitabnya Zaadul Ma’ad,
+Ada empat hal penghambat rezeki: (1) Tidur pagi, (2) Sedikit shalat, (3) Bermalas-malasan, (4) Sifat khianat. (Zad Al-Ma’ad, 4:378)
+ 
+Jamaah shalat Jumat yang semoga dirahmati Allah …
+ 
+Pertama
+Kenapa sampai tidur pagi bisa jadi penghambat datangnya rezeki?
+Karena waktu pagi adalah waktu penuh berkah.
+Dari sahabat Shakhr Al-Ghamidiy radhiyallahu ‘anhu, Nabi shallallahu ‘alaihi wa sallam bersabda,
+اللَّهُمَّ بَارِكْ لأُمَّتِى فِى بُكُورِهَا
+“Ya Allah, berkahilah umatku di waktu paginya.”
+Apabila Nabi shallallahu mengirim peleton pasukan, beliau shallallahu ‘alaihi wa sallam mengirimnya pada pagi hari. Sahabat Shokhr sendiri (yang meriwayatkan hadits ini, pen) adalah seorang pedagang. Dia biasa membawa barang dagangannya ketika pagi hari. Karena hal itu dia menjadi kaya dan banyak harta. Abu Daud mengatakan bahwa dia adalah Shokhr bin Wada’ah. (HR. Abu Daud, no. 2606. Hadits ini dishahihkan oleh Syaikh Al-Albani)
+Sedangkan di antara kita memanfaatkan waktu Shubuh dan pagi untuk:
+Malas dan enggan bangun shubuh
+Kalau tidak bangun Shubuh, bangun paginya jam 6 saat matahari telah terbit
+Setelah Shubuh tidak rutinkan dzikir pagi atau baca Al-Qur’an, malah kembali lagi ke tempat tidur. Kalau menunggu pun bada Shalat Shubuh di masjid sampai matahari meninggi (kira-kira 15 menit setelah matahari terbit) lalu mengerjakan Shalat Isyraq dua raka’at akan mendapatkan pahala haji dan umrah yang sempurna, sempurna dan sempurna.
+Dan ini bahayanya jika meninggalkan shalat Shubuh, maka akan lepas dari jaminan Allah.
+Dari Jundab bin ‘Abdillah radhiyallahu ‘anhu, ia berkata bahwa Rasulullah shallallahu ‘alaihi wa sallam bersabda,
+مَنْ صَلَّى الصُّبْحَ فَهُوَ فِى ذِمَّةِ اللَّهِ فَلاَ يَطْلُبَنَّكُمُ اللَّهُ مِنْ ذِمَّتِهِ بِشَىْءٍ فَيُدْرِكَهُ فَيَكُبَّهُ فِى نَارِ جَهَنَّمَ
+“Barangsiapa yang shalat subuh, maka ia berada dalam jaminan Allah. Oleh karena itu, janganlah menyakiti orang yang shalat Shubuh tanpa jalan yang benar.  Jika tidak, Allah akan menyiksanya dengan menelungkupkannya di atas wajahnya dalam neraka jahannam.” (HR. Muslim, no. 657)
+Bahkan yang sering tidak shalat Shubuh termasuk orang munafik.
+لَيْسَ صَلاَةٌ أثْقَلَ عَلَى المُنَافِقِينَ مِنْ صَلاَةِ الفَجْرِ وَالعِشَاءِ ، وَلَوْ يَعْلَمُونَ مَا فِيهِمَا لأَتَوْهُمَا وَلَوْ حَبْواً
+“Tidak ada shalat yang lebih berat bagi orang munafik selain dari shalat Shubuh dan shalat ‘Isya’. Seandainya mereka tahu keutamaan yang ada pada kedua shalat tersebut, tentu mereka akan mendatanginya walau sambil merangkak.” (HR. Bukhari, no. 657)
+ 
+Kedua
+Sedikit shalat berarti kurang ketakwaan, padahal takwa itulah pembuka pintu rezeki. Allah berfirman dalam ayat,
+وَمَنْ يَتَّقِ اللَّهَ يَجْعَلْ لَهُ مَخْرَجًا (2) وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ وَمَنْ يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ إِنَّ اللَّهَ بَالِغُ أَمْرِهِ قَدْ جَعَلَ اللَّهُ لِكُلِّ شَيْءٍ قَدْرًا (3)
+“Barang siapa yang bertakwa kepada Allah niscaya Dia akan mengadakan baginya jalan keluar. Dan Dia memberinya rezeki dari arah yang tiada disangka-sangkanya. Barang siapa yang bertawakal kepada Allah niscaya Allah akan mencukupkan (keperluan)-nya. Sesungguhnya Allah melaksanakan urusan yang (dikehendaki)-Nya. Sesungguhnya Allah telah mengadakan ketentuan bagi segala sesuatu.” (QS. Ath-Thalaq: 2-3)
+ 
+Ketiga
+Bermalas-malasan juga jadi sebab rezeki sulit datang. Karena seorang muslim dituntut kerja dan tawakkal pada Allah. Contohilah burung seperti yang disebutkan dalam hadits berikut.
+لَوْ أَنَّكُمْ كُنْتُمْ تَوَكَّلُونَ عَلَى اللَّهِ حَقَّ تَوَكُّلِهِ لَرُزِقْتُمْ كَمَا تُرْزَقُ الطَّيْرُ تَغْدُو خِمَاصًا وَتَرُوحُ بِطَانًا
+“Seandainya kalian benar-benar bertawakal kepada Allah, tentu kalian akan diberi rezeki sebagaimana burung diberi rezeki. Ia pergi pada pagi hari dalam keadaan lapar dan kembali pada sore hari dalam keadaan kenyang.” (HR. Tirmidzi, no. 2344; Ibnu Majah, no. 4164; Ahmad, 1:30. Abu ‘Isa Tirmidzi mengatakan bahwa hadits ini hasan shahih. Al-Hafizh Abu Thahir mengatakan bahwa sanad hadits ini hasan)
+Imam Ahmad pernah ditanya mengenai seseorang yang cuma mau duduk-duduk saja di rumahnya atau hanya berdiam di masjid, dan ia berkata, “Aku tidak mau bekerja sedikit pun dan hanya mau menunggu sampai rezekiku datang.” Imam Ahmad pun berkata, “Orang ini benar-benar bodoh. Padahal Nabi shallallahu ‘alaihi wa sallam bersabda – sebagaimana hadits burung di atas – bahwa burung saja bekerja dengan berangkat pada pagi hari. Para sahabat Nabi yang mulia pun berdagang dan bekerja dengan hasil kurma mereka. Merekalah sebaik-baik teladan.” (Fath Al-Bari, 11:306)
+Jadi tidaklah boleh beralasan karena sibuk ibadah dan berdakwah, sampai malas bekerja.
+Ibnu ‘Allan mengatakan bahwa As-Suyuthi berkata, “Al-Baihaqi mengatakan dalam Syu’ab Al-Iman, “Hadits ini bukanlah dalil untuk duduk-duduk santai, enggan melakukan usaha untuk memperoleh rezeki. Bahkan hadits ini merupakan dalil yang memerintahkan untuk mencari rezeki karena burung tersebut pergi pada pagi hari untuk mencari rezeki.” (Dalil Al-Falihin, 1:335)
+Inilah keutamaan bagi seseorang yang rajin mencari nafkah untuk keluarganya.
+Dari Abu Hurairah radhiyallahu ‘anhu, Nabi shallallahu ‘alaihi wa sallam bersabda,
+مَا مِنْ يَوْمٍ يُصْبِحُ الْعِبَادُ فِيهِ إِلاَّ مَلَكَانِ يَنْزِلاَنِ فَيَقُولُ أَحَدُهُمَا اللَّهُمَّ أَعْطِ مُنْفِقًا خَلَفًا ، وَيَقُولُ الآخَرُ اللَّهُمَّ أَعْطِ مُمْسِكًا تَلَفً
+“Tidaklah para hamba berpagi hari di dalamnya melainkan ada dua malaikat yang turun, salah satunya berkata, “Ya Allah, berilah ganti kepada orang yang senang berinfak.” Yang lain mengatakan, “Ya Allah, berilah kebangkrutan kepada orang yang pelit.” (HR. Bukhari, no. 1442 dan Muslim, no. 1010).
+ 
+Keempat
+Tidak amanah, ini juga jadi sebab orang sulit percaya. Kalau yang lain sulit percaya, bagaimana ia mudah mendapatkan pekerjaan, mendapatkan tanggungjawab sehingga mendapatkan rezeki dengan mudah?
+Ketahuilah bahwa orang yang berkhianat terhadap amanat pun menyandang salah satu sifat munafik. Dari Abu Hurairah radhiyallahu ‘anhu, Nabi shallallahu ‘alaihi wa sallam bersabda,
+آيَةُ الْمُنَافِقِ ثَلاَثٌ إِذَا حَدَّثَ كَذَبَ ، وَإِذَا وَعَدَ أَخْلَفَ ، وَإِذَا اؤْتُمِنَ خَانَ
+“Tiga tanda munafik adalah jika berkata, ia dusta; jika berjanji, ia mengingkari; dan ketika diberi amanat, maka ia ingkar.” (HR. Bukhari, no. 33 dan Muslim, no. 59).
+Termasuk di sini pula adalah tidak amanah dalam melunasi utang. Ingatlah bahwa utang akan menyusahkan seseorang di akhirat kelak. Dari Ibnu ‘Umar radhiyallahu ‘anhuma, Nabi shallallahu ‘alaihi wa sallam bersabda,
+مَنْ مَاتَ وَعَلَيْهِ دِينَارٌ أَوْ دِرْهَمٌ قُضِىَ مِنْ حَسَنَاتِهِ لَيْسَ ثَمَّ دِينَارٌ وَلاَ دِرْهَمٌ
+“Barangsiapa yang mati dalam keadaan masih memiliki hutang satu dinar atau satu dirham, maka hutang tersebut akan dilunasi dengan kebaikannya (di hari kiamat nanti) karena di sana (di akhirat) tidak ada lagi dinar dan dirham.” (HR. Ibnu Majah, no. 2414. Syaikh Al-Albani mengatakan bahwa hadits ini shahih.)
+
+Ma’asyirol muslimin rahimani wa rahimakumullah …
+Kami ingatkan lagi bagi yang malas bangun Shubuh, ingatlah hadits dari Abu Hurairah radhiyallahu ‘anhu berikut.
+عَقِدَ الشَّيْطَانُ عَلَى قَافِيَةِ رَأْسِ أَحَدِكُمْ إِذَا هُوَ نَامَ ثَلاَثَ عُقَدٍ ، يَضْرِبُ كُلَّ عُقْدَةٍ عَلَيْكَ لَيْلٌ طَوِيلٌ فَارْقُدْ ، فَإِنِ اسْتَيْقَظَ فَذَكَرَ اللَّهَ انْحَلَّتْ عُقْدَةٌ ، فَإِنْ تَوَضَّأَ انْحَلَّتْ عُقْدَةٌ ، فَإِنْ صَلَّى انْحَلَّتْ عُقْدَةٌ فَأَصْبَحَ نَشِيطًا طَيِّبَ النَّفْسِ ، وَإِلاَّ أَصْبَحَ خَبِيثَ النَّفْسِ كَسْلاَنَ
+“Setan membuat tiga ikatan di tengkuk (leher bagian belakang) salah seorang dari kalian ketika tidur. Di setiap ikatan setan akan mengatakan, “Malam masih panjang, tidurlah!” Jika ia bangun lalu berdzikir pada Allah, lepaslah satu ikatan. Kemudian jika dia berwudhu, lepas lagi satu ikatan. Kemudian jika dia mengerjakan sholat, lepaslah ikatan terakhir. Di pagi hari dia akan bersemangat dan bergembira. Jika tidak melakukan seperti ini, dia tidak ceria dan menjadi malas.” (HR. Bukhari, no. 1142 dan Muslim, no. 776)
+Mari kita koreksi diri, untuk tidak biasa tidur pagi apalagi sampai ketinggalan shalat Shubuh, juga memperhatikan shalat, tidak malas-malasan dan berusaha menjaga amanah.
+Moga Allah memberi taufik dan hidayah.
+Di akhir khutbah ini … Jangan lupa untuk memperbanyak shalawat di hari Jumat.
+ 
+Kata Nabi shallallahu ‘alaihi wa sallam,
+مَنْ صَلَّى عَلَىَّ وَاحِدَةً صَلَّى اللَّهُ عَلَيْهِ عَشْرًا
+“Barangsiapa yang bershalawat kepadaku sekali, maka Allah akan bershalawat kepadanya sepuluh kali.” (HR. Muslim, no. 408)</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wff-NG-hOu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3982.6086956521744" y="857.60869565217399"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="M7A-aI-bPA">
+            <objects>
+                <viewController id="Sgb-RC-sdT" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4X7-dT-4Uw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2101" y="-16437"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lsO-10-knR">
+            <objects>
+                <viewController id="TbI-kb-cpC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mil-cC-59r"/>
+                        <viewControllerLayoutGuide type="bottom" id="cwp-Qt-Ekd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="s6V-gj-2fX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iphone-7-plus-wallpaper-blue-sky-stars.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="i0i-Rh-F6c">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4ee-JK-YRk">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.079279102385044098" green="0.21085071563720703" blue="0.32205891609191895" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Para jama’ah shalat Jum’at rahimani wa rahimakumullah …
+Sungguh banyak nikmat yang telah Allah berikan kepada kita. Nikmat yang paling besar adalah Allah masih memberikan nikmat Iman dan Islam. Tugas kita adalah mensyukurinya dengan terus memperbaiki ketakwaan kita pada Allah. Allah memerintahkan,
+يَا أَيُّهَا الَّذِينَ آَمَنُوا اتَّقُوا اللَّهَ حَقَّ تُقَاتِهِ وَلَا تَمُوتُنَّ إِلَّا وَأَنْتُمْ مُسْلِمُونَ
+“Hai orang-orang yang beriman, bertakwalah kepada Allah sebenar-benar takwa kepada-Nya; dan janganlah sekali-kali kamu mati melainkan dalam keadaan beragama Islam.” (QS. Ali Imran: 102)
+Shalawat dan salam semoga tercurah kepada nabi akhir zaman, suri tauladan kita, dan yang menjadi pembuka pintu surga di akhirat kelak, yaitu nabi besar kita Muhammad shallallahu ‘alaihi wa sallam, begitu pula kepada para sahabat, dan para tabi’in serta setiap orang yang mengikuti jejak mereka dengan baik hingga akhir zaman.
+ 
+Kaum muslimin yang semoga dirahmati oleh Allah Ta’ala …
+Maksiat dan setiap yang Allah larang mesti kita jauhi sebagaimana perintah dalamn ayat,
+وَمَا آَتَاكُمُ الرَّسُولُ فَخُذُوهُ وَمَا نَهَاكُمْ عَنْهُ
+“Apa yang diberikan Rasul kepadamu, maka terimalah. Dan apa yang dilarangnya bagimu, maka tinggalkanlah.” (QS. Al-Hasyr: 7)
+Dan maksiat memiliki dampak, di antaranya hati akan semakin gelap.
+Allah Ta’ala berfirman,
+كَلَّا بَلْ رَانَ عَلَى قُلُوبِهِمْ مَا كَانُوا يَكْسِبُونَ
+“Sekali-kali tidak (demikian), sebenarnya apa yang selalu mereka usahakan itu menutupi hati mereka.” (QS. Al-Muthaffifin: 14).
+Coba lihat bagaimanakah keadaan seorang alim yang berbuat maksiat. Pernah terjadi pada Imam Muhammad bin Idris Asy-Syafi’i rahimahullah ketika beliau mengeluhkan hafalannya pada gurunya. Padahal Imam Syafi’i sebenarnya orang yang hafalannya sungguh amat luar biasa. Diriwayatkan dari Imam Asy Syafi’i, ia berkata, “Aku telah menghafalkan Al Qur’an ketika berumur 7 tahun. Aku pun telah menghafal kitab Al Muwatho’ ketika berumur 10 tahun. Ketika berusia 15 tahun, aku pun sudah berfatwa.” (Thorh At Tatsrib, 1: 95-96).
+Imam Syafi’i rahimahullah pernah berkata,
+شَكَوْت إلَى وَكِيعٍ سُوءَ حِفْظِي فَأَرْشَدَنِي إلَى تَرْكِ الْمَعَاصِي وَأَخْبَرَنِي بِأَنَّ الْعِلْمَ نُورٌ وَنُورُ اللَّهِ لَا يُهْدَى لِعَاصِي
+“Aku pernah mengadukan kepada Waki’ tentang jeleknya hafalanku. Lalu beliau menunjukiku untuk meninggalkan maksiat. Beliau memberitahukan padaku bahwa  ilmu adalah cahaya dan cahaya Allah tidaklah mungkin diberikan pada ahli maksiat.” (I’anatuth Tholibin, 2: 190).
+Lihatlah itu salah satu bukti maksiat itu menggelapkan hati. Beda kalau memang kita sudah terbiasa bermaksiat, sudah terbiasa enggan shalat, sudah terbiasa memakan riba, bahkan menganggap biasa dosa syirik.
+Maksiat bisa dilakukan terang-terangan, bisa pula dilakukan seorang diri. Perhatikan hadits berikut ini.
+عَنْ ثَوْبَانَ عَنِ النَّبِىِّ -صلى الله عليه وسلم- أَنَّهُ قَالَ : « لأَعْلَمَنَّ أَقْوَامًا مِنْ أُمَّتِى يَأْتُونَ يَوْمَ الْقِيَامَةِ بِحَسَنَاتٍ أَمْثَالِ جِبَالِ تِهَامَةَ بِيضًا فَيَجْعَلُهَا اللَّهُ عَزَّ وَجَلَّ هَبَاءً مَنْثُورًا ». قَالَ ثَوْبَانُ : يَا رَسُولَ اللَّهِ صِفْهُمْ لَنَا جَلِّهِمْ لَنَا أَنْ لاَ نَكُونَ مِنْهُمْ وَنَحْنُ لاَ نَعْلَمُ. قَالَ : « أَمَا إِنَّهُمْ إِخْوَانُكُمْ وَمِنْ جِلْدَتِكُمْ وَيَأْخُذُونَ مِنَ اللَّيْلِ كَمَا تَأْخُذُونَ وَلَكِنَّهُمْ أَقْوَامٌ إِذَا خَلَوْا بِمَحَارِمِ اللَّهِ انْتَهَكُوهَا »
+Dari Tsauban radhiyallahu ‘anhu, dari Nabi shallallahu ‘alaihi wa sallam, ia berkata, “Sungguh aku mengetahui suatu kaum dari umatku datang pada hari kiamat dengan banyak kebaikan semisal Gunung Tihamah. Namun Allah menjadikan kebaikan tersebut menjadi debu yang bertebaran.” Tsauban berkata, “Wahai Rasulullah, coba sebutkan sifat-sifat mereka pada kami supaya kami tidak menjadi seperti mereka sedangkan kami tidak mengetahuinya.”
+Rasulullah shallallahu ‘alaihi wa sallam bersabda, “Adapun mereka adalah saudara kalian. Kulit mereka sama dengan kulit kalian. Mereka menghidupkan malam (dengan ibadah) seperti kalian. Akan tetapi mereka adalah kaum yang jika bersepian mereka merobek tirai untuk bisa bermaksiat pada Allah.” (HR. Ibnu Majah no. 4245. Al-Hafizh Abu Thahir mengatakan bahwa sanad hadits ini hasan).
+Hadits di atas semakna dengan ayat,
+يَسْتَخْفُونَ مِنَ النَّاسِ وَلَا يَسْتَخْفُونَ مِنَ اللَّهِ وَهُوَ مَعَهُمْ إِذْ يُبَيِّتُونَ مَا لَا يَرْضَى مِنَ الْقَوْلِ وَكَانَ اللَّهُ بِمَا يَعْمَلُونَ مُحِيطًا
+“Mereka bersembunyi dari manusia, tetapi mereka tidak bersembunyi dari Allah, padahal Allah beserta mereka, ketika pada suatu malam mereka menetapkan keputusan rahasia yang Allah tidak ridhai. Dan adalah Allah Maha Meliputi (ilmu-Nya) terhadap apa yang mereka kerjakan.” (QS. An-Nisa’: 108). Walaupun dalam ayat tidak disebutkan tentang hancurnya amalan.
+Sekarang yang terpenting, kita menjauhi maksiat. Namun bagaimanakah caranya?
+Kita bisa mendeteksi terlebih dahulu sebab-sebab kita mudah menerjang yang haram.
+ 
+Para jama’ah shalat Jumat yang semoga dirahmati oleh Allah …
+ 
+Sebab pertama:
+Lemahnya iman, itu ada karena kurangnya ilmu, kurang ma’rifatullah (mengenal Allah).  Kalau iman seseorang itu kuat, jika ada maksiat di depannya, ia akan mengedepankan rasa takut pada Allah daripada kesenangan dunia yang sementara.
+ 
+Sebab kedua:
+Teman bergaul yang jelek.
+Dari Abu Hurairah radhiyallahu ‘anhu, Rasulullah shallallahu ‘alaihi  wa sallam bersabda,
+الْمَرْءُ عَلَى دِينِ خَلِيلِهِ فَلْيَنْظُرْ أَحَدُكُمْ مَنْ يُخَالِلُ
+“Seseorang akan mencocoki kebiasaan teman karibnya. Oleh karenanya, perhatikanlah siapa yang akan menjadi teman karib kalian.” (HR. Abu Daud no. 4833, Tirmidzi no. 2378, Ahmad 2/344, dari Abu Hurairah. Syaikh Al-Albani mengatakan bahwa hadits ini hasan. Lihat Shohihul Jaami’ 3545).
+Banyak maksiat yang terjadi dikarenakan teman bergaul yang jelek.
+ 
+Sebab ketiga:
+Pandangan yang begitu bebas, tidak mau ditundukkan. Karena dari pandangan, panah iblis mulai dimainkan, makanya Allah perintahkan,
+قُلْ لِلْمُؤْمِنِينَ يَغُضُّوا مِنْ أَبْصَارِهِمْ وَيَحْفَظُوا فُرُوجَهُمْ ذَلِكَ أَزْكَى لَهُمْ إِنَّ اللَّهَ خَبِيرٌ بِمَا يَصْنَعُونَ
+“Katakanlah kepada orang laki-laki yang beriman: “Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; yang demikian itu adalah lebih suci bagi mereka, sesungguhnya Allah Maha Mengetahui apa yang mereka perbuat.” (QS. An-Nuur: 30)
+Dari Jarir bin Abdullah radhiyallahu ‘anhu, ia berkata,
+سَأَلْتُ رَسُولَ اللَّهِ -صلى الله عليه وسلم- عَنْ نَظَرِ الْفُجَاءَةِ فَأَمَرَنِى أَنْ أَصْرِفَ بَصَرِى.
+“Aku pernah bertanya kepada Rasulullah shallallahu ‘alaihi wa sallam mengenai pandangan yang tidak di sengaja. Maka beliau memerintahkanku supaya memalingkan pandanganku.” (HR. Muslim, no. 2159)
+ 
+Sebab keempat:
+Banyak waktu luang.
+Dua nikmat ini seringkali dilalaikan oleh manusia –termasuk pula hamba yang faqir ini-. Nabi shallallahu ‘alaihi wa sallam bersabda,
+نِعْمَتَانِ مَغْبُونٌ فِيهِمَا كَثِيرٌ مِنَ النَّاسِ ، الصِّحَّةُ وَالْفَرَاغُ
+”Ada dua kenikmatan yang banyak manusia tertipu, yaitu nikmat sehat dan waktu senggang.” (HR. Bukhari no. 6412, dari Ibnu ‘Abbas)
+ 
+Sebab kelima:
+Bermudah-mudahan dalam yang haram. Karena semakin bermudah-mudahan, kita bisa terjerumus dalam yang haram yang lebih parah.
+ 
+Sebab keenam:
+Dekat dengan tempat-tempat yang dapat membangkitkan syahwat seperti duduk-duduk di pinggir jalan. Karena syahwat dapat bangkit lewat pandangan ketika berada di jalan-jalan.
+Dari Abu Sa’id Al-Khudri radhiyallahu ‘anhuma, Nabi shallallahu ‘alaihi wa sallam bersabda,
+« إِيَّاكُمْ وَالْجُلُوسَ عَلَى الطُّرُقَاتِ » . فَقَالُوا مَا لَنَا بُدٌّ ، إِنَّمَا هِىَ مَجَالِسُنَا نَتَحَدَّثُ فِيهَا . قَالَ « فَإِذَا أَبَيْتُمْ إِلاَّ الْمَجَالِسَ فَأَعْطُوا الطَّرِيقَ حَقَّهَا » قَالُوا وَمَا حَقُّ الطَّرِيقِ قَالَ « غَضُّ الْبَصَرِ ، وَكَفُّ الأَذَى ، وَرَدُّ السَّلاَمِ ، وَأَمْرٌ بِالْمَعْرُوفِ ، وَنَهْىٌ عَنِ الْمُنْكَرِ »
+“Janganlah kalian duduk-duduk di pinggir jalan”. Mereka bertanya, “Itu kebiasaan kami yang sudah biasa kami lakukan karena itu menjadi majelis tempat kami bercengkrama”. Beliau bersabda, “Jika kalian tidak mau meninggalkan majelis seperti itu maka tunaikanlah hak jalan tersebut”. Mereka bertanya, “Apa hak jalan itu?” Beliau menjawab, “Menundukkan pandangan, menyingkirkan gangguan di jalan, menjawab salam dan amar ma’ruf nahi munkar.” (HR. Bukhari no. 2465)
+Termasuk juga yang mudah membangkitkan syahwat adalah musik dan berada di tempat yang melalaikan dari Allah.
+
+Para jama’ah shalat Jumat yang semoga dirahmati oleh Allah …
+Kesimpulannya ada enam sebab yang menyebabkan kita mudah bermaksiat:
+- Lemahnya iman.
+- Teman yang jelek.
+- Pandangan yang tidak dijaga.
+- Waktu luang yang tidak dimanfaatkan dalam kebaikan.
+- Bermudah-mudahan dalam yang haram.
+- Dekat-dekat dengan tempat yang membangkitkan syahwat.
+
+
+</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eAC-75-VDG">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43807569149999998" green="0.46764111520000001" blue="0.56284928320000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="6 Sebab Terjadinya Maksiat" id="ORh-fm-RYh">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="fib-1j-ljM">
+                                            <connections>
+                                                <segue destination="Lyv-bt-My4" kind="modal" id="BnQ-PH-Q3k"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xRQ-Pw-keF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2685.507246376812" y="857.60869565217399"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7Gd-2Q-G7R">
+            <objects>
+                <viewController id="SuP-YZ-fSV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ucD-wb-dEw"/>
+                        <viewControllerLayoutGuide type="bottom" id="EFs-Qg-FGg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XnG-Vi-J6g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iphone-7-plus-wallpaper-blue-sky-stars.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Kk8-fe-6jx">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="50e-JE-NKV">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.12796744704246521" green="0.24570316076278687" blue="0.35975989699363708" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Kaum muslimin jamaah jumat yang diridhoi Allah SWT.
+
+Salah satu nikmat terbesar yang dikaruniakan Allah SWT kepada kita di Indonessia ini adalah nikmat dilahirkan atau hidup di tengah komunitas muslim yang cukup besar, bahkan terbesar di dunia.
+
+Orang tua kita tidak canggung memberikan nama bernuansa Islami kepada anaknya tanpa khawatir dianggap nama teroris, para muslimah bebas mengenakan jilbabnya tanpa takut didiskriminasi, masjid masjid dibangun dengan mewah, menara yang menjulang dan senantiasa mengumandangakan azan tiap waktunya, tanpa takut disegel pemerintah.
+
+Bandingkan dengan saudara-saudara kita yang hidup di lingkungan yang tidak sama seperti kita. Tentu kita sudah sering menyimak di media cetak maupun media elektronik, bagaimana nasib saudara kita sesama muslim yang hidup di Eropa atau Amerika Serikat misalnya.
+
+Terutama pasca peristiwa fitnah WTC 11 September, mereka menjadi sasaran kaum Islamophobia, Jilbab dan cadar dilarang, menara dilarang, nama yang berbau muslim atau Arab dicurigai. Mereka setiap hari harus berjuang mempertahankan identitas kemusliman meraka, mereka harus berjuang keras menjaga syahadat mereka.
+
+Lalu kembali kepada kita, kaum muslimin yang dirahmati Allah, kita atau katakanlah sebagian dari masyarakat kita, karena sudah terlahir sebagai muslim, dengan nama Islami, dilengkapi lagi dengan KTP yang mempertegas keIslaman formalnya dan hidup ditengah-tengah masyarakat muslim, entah karena semua itu atau ada faktor lain, mereka kadang lengah, tidak sadar bahwa keislaman mereka bisa saja batal.
+
+Mereka tidak berhati-hati sehingga syahadatnya pun tinggal lafal yang tidak bermakna di sisi Allah SWT. mereka menganggap hal-hal itu remeh, padahal ini adalah permasalahan yang sungguh amat sangat penting, karena syahadatlah yang membedakan antara seorang yang beriman dengan yang tidak beriman. Seorang muslim dengan seorang kafir.
+
+Jamaah jumat yang dicintai Allah,
+
+Pertama-tama sebelum khatib membahas lebih jauh tentang pembatal syahadat, khatib perlu menegaskan bahwa ini sama sekali bukan untuk menghakimi saudara kita sesama muslim, bahwa ia telah membatalkan syahadatnya, tapi yang terpenting adalah bagaimana menjadikannya sebagai bahan muhasabah pribadi, lalu kita berusaha menjauhinya dan menjauhkan keluarga kita darinya.
+
+Said Hawwa di dalam kitabnya yang berjudul Al Islam menyebutkan bahwa ada 20 hal yang dapat membatalkan syahadat seorang muslim atau muslimah. Dalam kesempatan khutbah ini khatib hanya akan menyampaikan beberapa diantaranya.
+
+Pembatal syahadat yang pertama adalah bertawakkal kepada selain Allah SWT, Allah SWT memerintahkan kepada kita untuk berusaha dan berikhtiar dalam setiap hajat kebutuhan hidup kita, namun Allah SWT melarang kita untuk bertawakkal kepada usaha kita tersebut.
+
+Yang dimaksud bertawakkal kepada usaha adalah ketika seseorang sudah begitu yakin dengan usahanya dalam suatu perkara, ia menumpuhkan seluruh harapannya kepada apa yang telah ia lakukan, sehingga ia melupkan bahwa di atas segala usaha dan ikhtiyar sebaik dan sekeras apapun itu, masih ada Allah SWT, Sang Pencipta yang Maha berkuasa. Allah SWT berfirman di dalam surah Al Maidah ayat 23 ;
+
+قَالَ رَجُلاَنِ مِنَ الَّذِينَ يَخَافُونَ أَنْعَمَ اللَّهُ عَلَيْهِمَا ادْخُلُواْ عَلَيْهِمُ الْبَابَ فَإِذَا دَخَلْتُمُوهُ فَإِنَّكُمْ غَالِبُونَ وَعَلَى اللَّهِ فَتَوَكَّلُواْ إِن كُنتُم مُّؤْمِنِينَ
+
+“Berkatalah dua orang diantara orang-orang yang takut (kepada Allah) yang Allah SWT Telah memberi nikmat atas keduanya: “Serbulah mereka dengan melalui pintu gerbang (kota) itu, Maka bila kamu memasukinya niscaya kamu akan menang. dan Hanya kepada Allah SWT hendaknya kamu bertawakkal, jika kamu benar-benar orang yang beriman”.
+
+Ayat di atas bercerita tentang Bani Israil ketika hendak memasuki negeri yang di dalamnya hidup kaum yang kejam, namun Allah SWT tidak langsung menurunkan kepada mereka bantuan, tapi memerintahkan kepada mereka melalui lisan dua orang yang takut kepada Allah SWT di kalangan mereka, agar berusaha yakni masuk kedalam negeri tersebut. Setelah mereka berusaha, Allah SWT kemudian memerintahkan kepada mereka agar bertawakkal hanya kepada Allah SWT.
+
+Begitupun dalam kehidupan kita, kita tentu saja harus berusaha keras untuk meraih sesuatu, untuk mencapai kesuksesan, namun akhirnya, kepada Allahlah kita serahkan keputusannya.
+
+Disinilah perbedaan orang kafir dengan orang yang beriman. Seorang kafir berusaha maksimal dan menggantungkan harapannya sepenuhnya pada usahanya, sedangkan orang mukmin juga berusah dengan maksimal, tapi hanya menggantungkan harapan sepenuhnya kepada Allah SWT.
+
+Kaum muslimin jamaah jumat yang diberkahi Allah,
+
+Pembatal syahadat yang kedua adalah tidak mengakui bahwa semua nikmat baik lahir maupun batin berasal dari Allah SWT.
+
+Allah SWT berfirman ;
+
+أَلَمْ تَرَوْا أَنَّ اللَّهَ سَخَّرَ لَكُم مَّا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ وَأَسْبَغَ عَلَيْكُمْ نِعَمَهُ ظَاهِرَةً وَبَاطِنَةً وَمِنَ النَّاسِ مَن يُجَادِلُ فِي اللَّهِ بِغَيْرِ عِلْمٍ وَلا هُدًى وَلا كِتَابٍ مُّنِيرٍ
+
+“Tidakkah kamu perhatikan Sesungguhnya Allah SWT Telah menundukkan untuk (kepentingan)mu apa yang di langit dan apa yang di bumi dan menyempurnakan untukmu nikmat-Nya lahir dan batin. dan di antara manusia ada yang membantah tentang (keesaan) Allah SWT tanpa ilmu pengetahuan atau petunjuk dan tanpa Kitab yang memberi penerangan.” (QS. Luqman: 20)
+
+Jamaah jumat rahimakumullah, setiap muslim wajib mengakui bahwa setiap nikmat yang ia peroleh, yang meliputinya baik itu nikmat fisik seperti tubuh yang sehat, harta yang cukup, anak serta istri yang menyejukan pandangan dan sejenisnya adalah nikmat dari Allah, merupakan pinjaman dari Allah SWT begitu juga nikmat yang abstrak seperti Iman, Islam, rasa bahagia, kepandaian dan sejenisnya hanyalah dari Allah SWT.
+
+Seorang muslim yang sempurna syahadatnya, tidak boleh menganggap bahwa semua yang ia miliki ia peroleh karena usahanya sendiri. Karena bagaimanapun manusia berusaha, Allah-lah yang memutuskan bagaiamana akhirnya.
+
+Dalam konteks inilah Allah SWT membinasakan Qarun yang menyombongkan harta yang ia anggap hasil dari ilmunya. Seperti diabadikan oleh Al Quran ;
+
+قَالَ إِنَّمَا أُوتِيتُهُ عَلَى عِلْمٍ عِندِي
+
+“Karun berkata: “Sesungguhnya Aku Hanya diberi harta itu, Karena ilmu yang ada padaku”. (QS. Al-Qashas: 78)
+
+Begitulah Qarun menjadi kafir Karena menganggap nikmat yang ia peroleh adalah hasil dari kemampuannya tanpa mengakui Allah SWT sebagai pemberi segalanya.
+
+Hal berikutnya yang membatalkan syahadat adalah beramal dengan tujuan selain Allah SWT.
+
+Seorang yang mengaku muslim yang bersyahadat, agar syahadatnya tetap sempurna maka ia harus beribadah karena Allah SWT semata. Allah SWT berfirman ;
+
+قُلْ إِنَّ صَلاَتِي وَنُسُكِي وَمَحْيَايَ وَمَمَاتِي لِلّهِ رَبِّ الْعَالَمِينَ  لاَ شَرِيكَ لَهُ وَبِذَلِكَ أُمِرْتُ وَأَنَاْ أَوَّلُ الْمُسْلِمِينَ
+
+“Katakanlah: Sesungguhnya sholatku, ibadatku, hidupku dan matiku hanyalah untuk Allah SWT, Tuhan semesta alam. Tiada sekutu bagi-Nya; dan demikian itulah yang diperintahkan kepadaku dan aku adalah orang yang pertama-tama menyerahkan diri (kepada Allah SWT)”. (QS. Al-An’am: 162-163)
+
+Ibadah di sini tidak terbatas pada shalat, puasa, zakat, dan haji semata, tetapi mencakup semua amalan yang dikerjakan karena Allah SWT. dengan demikian seorang muslim tidak boleh berbuat karena sesuatu yang lain selain Allah SWT.
+
+Misalnya adat, hidup matinya untuk adat benar-salah ia tetap membela adatnya. Pernyataan ini bukan berarti kita tidak boleh memelihara atau membela adat, tetapi yang dimaksud di sini adalah tidak menjadikannya nomor satu di atas segala-galanya termasuk menjadikannya lebih di atas dari aturan-aturan agama Islam.
+
+Berikutnya yang dapat membatalkan syahadat seseorang adalah membenci Islam sebagian atau seluruhnya. Allah SWT berfirman ;
+
+وَالَّذِينَ كَفَرُوا فَتَعْسًا لَّهُمْ وَأَضَلَّ أَعْمَالَهُمْ  ذَلِكَ بِأَنَّهُمْ كَرِهُوا مَا أَنزَلَ اللَّهُ فَأَحْبَطَ أَعْمَالَهُمْ
+
+“Dan orang-orang yang kafir, Maka kecelakaanlah bagi mereka dan Allah SWT menyesatkan amal-amal mereka. Yang demikian itu adalah Karena Sesungguhnya mereka benci kepada apa yang diturunkan Allah SWT (Al Quran) lalu Allah SWT menghapuskan (pahala-pahala) amal-amal mereka.”
+
+Kaum muslimin jamaah jumat yang diberkati Allah SWT,
+
+Pada ayat di atas dikatakan kecelakaan yang menimpa orang yang kafir, orang yang tidak bersyahadat adalah karena mereka membenci apa-apa yang diturunkan Allah, yakni Al Quran yang menjadi sumber segala hukum Islam.
+
+Di dalam Al Quran ditetapkan kaidah-kaidah umum, larangan-larangan, perintah-perintah serta petunjuk-petunjuk. Lalu selain itu Allah SWT juga menjadikan sunnah nabi-Nya menjadi bagian dari sumber hukum Islam. jika semuanya digabungkan maka ia disebut dinul Islam. Seorang yang membenci salah satu dari elemen di atas, atau bahkan seluruhnya, maka ia dianggap telah membatalkan syahadatnya.
+
+Kaum muslimin yang dicintai Allah SWT, termasuk dalam hal ini bila ada seseorang yang begitu alergi dengan hukum-hukum hudud dalam Islam, misalnya saja hukuman potong tangan bagi pencuri, hukuman rajam bagi pezina yang sudah pernah menikah.
+
+Akhir–akhir ini, ketika banyak kalangan umat yang memperjuangkan diberlakukannya syariat, atau PERDA syariat justru muncul dari umat Islam sendiri suara-suara yang membenci hukum tersebut dengan dalih bertentangan dengan kemanuiaan dan HAM.
+
+Mereka tidak sadar bahwa kebencian mereka itu telah mencederai syahadat mereka. Begitu juga jika kita membenci system ekonomi Islam yang Alhamdulillah mulai berkembang di tanah air kita bahkan di dunia. Intinya kita sebagai seorang yang bersyahadat harus cinta dan bangga pada semua elemen Islam, jangan mengenyampingkan sebagian dengan dalih apapun.
+
+Jamaah jumat yang berbahagia, masih berhubungan dengan poin tadi, hal berikutnya yang dapat membatalkan syahadat seseorang adalah apabila ia memperolok–olok Al Quran dan Sunnah serta orang yang berjuang menegakan keduanya. Simaklah firman Allah SWT ;
+
+يَحْذَرُ الْمُنَافِقُونَ أَن تُنَزَّلَ عَلَيْهِمْ سُورَةٌ تُنَبِّئُهُمْ بِمَا فِي قُلُوبِهِم قُلِ اسْتَهْزِؤُواْ إِنَّ اللَّهَ مُخْرِجٌ مَّا تَحْذَرُونَ  وَلَئِن سَأَلْتَهُمْ لَيَقُولُنَّ إِنَّمَا كُنَّا نَخُوضُ وَنَلْعَبُ قُلْ أَبِاللَّهِ وَآيَاتِهِ وَرَسُولِهِ كُنتُمْ تَسْتَهْزِؤُونَ
+
+“Orang-orang yang munafik itu takut akan diturunkan terhadap mereka sesuatu surat yang menerangkan apa yang tersembunyi dalam hati mereka. Katakanlah kepada mereka: “Teruskanlah ejekan-ejekanmu (terhadap Allah SWT dan rasul-Nya).” Sesungguhnya Allah SWT akan menyatakan apa yang kamu takuti itu. Dan jika kamu tanyakan kepada mereka (tentang apa yang mereka lakukan itu), tentulah mereka akan manjawab, “Sesungguhnya kami hanyalah bersenda gurau dan bermain-main saja.” Katakanlah: “Apakah dengan Allah, ayat-ayat-Nya dan rasul-Nya kamu selalu berolok-olok?” (QS. At-Taubah: 64-65)
+
+Dalam ayat di atas, Allah SWT menegaskan bahwa hanya orang-orang munafiklah yang suka mengolok-olok Islam. Fenomena ini juga kadang kita temui dalam masyarakat kita. Ketika ada seorang yang berusaha meneladani sunnah Rasulullah SAW , justru dianggap aneh oleh sebagian muslim yang lain. Bahkan ada yang mengolok-olok atau menyematkan sebutan yang jelek bagi mereka.
+
+Ya harus kita akui bahwa terkadang ada perkara-perkara yang oleh sebagian kaum muslimin sebagai sunnah Rasul yang mesti dihidupkan namun bagi yang lain perkara tersebut tidak mesti dipahami sebagaimana kelompok pertama tadi memahaminya. Misalnya saja memanjangkan jenggot, atau memakai kain di atas mata kaki. Dalam perkara semacam ini, untuk menjaga syahadat kita, hendaknya kita bersikap bijak dengan tidak mengolok mereka yang berbeda pendapat dengan kita. Karena ternyata fatal akibatnya.
+
+Jamaah jumat yang saya hormati, pembatal syahadat terakhir yang sempat saya sampaikan pada kesempatan ini adalah mengkafirkan orang Islam atau menghalalkan darahnya, atau tidak mengkafirkan orang kafir. Di atas tadi telah kami sampaikan beberapa hal yang dapat membatalkan syahadat seorang muslim, tapi dengan berdasarkan semua itu janganlah kita dengan gampang mengecap seorang muslim sebagai kafir, karena hal inipun dapat membatalkan syahadat kita. Rasulullah SAW pernah bersabda ;
+
+حَدَّثَنَا مُحَمَّدُ بْنُ مَعْمَرٍ ، قَالَ : حَدَّثَنَا عَبْدُ الصَّمَدِ ، قَالَ : حَدَّثَنِي أَبِي ، عَنْ حُسَيْنٍ يَعْنِي الْمُعَلِّمَ ، عَنِ ابْنِ بُرَيْدَةَ ، عَنْ يَحْيَى بْنِ يَعْمَرَ ، أَنَّ أَبَا الأَسْوَدِ ، حَدَّثَهُ عَنْ أَبِي ذَرٍّ ، أَنَّهُ سَمِعَ رَسُولَ اللهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ: « يَقُولُ لاَ يَرْمِي رَجُلٌ رَجُلاً بِالْفِسْقِ ، وَلاَ يَرْمِيَهُ بِالْكُفْرِ إِلاَّ رُدَّتْ عَلَيْهِ إِنْ لَمْ يَكُنْ صَاحِبُهُ كَذَلِكَ
+
+“Jika seorang menuduh orang lain fasik ataupun kafir padahal sifat tersebut tudaklah ada pada orang yang ia tuduh, maka kefasikan dan kekafiran kembali kepadanya (si penuduh)”
+
+Di tanah air kita ini, ada banyak sekali kelompok Islam yang dalam pengamalan dan pemahaman mereka terhadap Islam terdapat perbedaan. Perbedaan-perbedaan yang ada itu jangan sampai membuat kita begitu cepat mencap saudara sesama muslim sabagai kafir yang halal darahnya. Kecuali jika buktinya memang jelas bahwa orang tersebut telah nyata kekafirannya. Jika demikina justru kita harus mengkafirkannya. Misalnya jika ada seorang yang mengaku muslim namun meyakini adanya nabi setelah Rasulullah SAW , orang tersebut telah kufur.
+
+Namun jika perbedaan yang ada hanya masalah furu’ atau cabang dalam agama, dimana perkara tersebut tidak sampai membuat seseorang kafir, maka kita sebagai orang yang bersyahadat janganlah sekali-kali menuduh seorang kafir. Karena jika tuduhan tersebut tidak terbukti justru syahadat kitalah yang terancam.</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TQW-Hl-pdn">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43807569149999998" green="0.46764111520000001" blue="0.56284928320000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Batalnya Syahadat Seorang Muslim" id="uRo-fd-nTA">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="B5Q-35-Icd">
+                                            <connections>
+                                                <segue destination="Lyv-bt-My4" kind="modal" id="7Gl-jp-pYB"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dnR-Dr-coi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2685.507246376812" y="138.58695652173915"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dCd-eJ-Xta">
+            <objects>
+                <viewController id="zAG-s6-J8y" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xsz-Og-00e"/>
+                        <viewControllerLayoutGuide type="bottom" id="rKt-hn-qiS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RKd-Zk-s6d">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iphone-7-plus-wallpaper-blue-sky-stars.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PUh-s9-2bo">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="plm-xx-1Mw">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.15587544441223145" green="0.280234694480896" blue="0.39345699548721313" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Jamaah jumat rakhimakumullah
+
+Marilah kita bertaqwa kepada Allah SWT dengan sebenar-benar taqwa, karena Allah SWT hanya menyayangi orang-orang yang bertaqwa dan beramal berdasarkan taqwa kepada-Nya. Allah SWT mengutus Rasul-Nya dengan membawa petunjuk dan agama yang benar bagi seluruh manusia dengan tujuan agar seluruh makhluk mendapatkan hidayah dan merasakan kebahagiaan dunia dan akhirat. Allah SWT berfirman, dalam surat Al-Anbiya’ ayat 107,
+
+وَمَا أَرْسَلْنَاكَ إِلاَّ رَحْمَةً لِّلْعَالَمِينَ
+
+“Dan tiadalah Kami mengutus kamu, melainkan untuk (menjadi) rahmat bagi semesta alam.”
+
+Diantara sifat yang Allah SWT berikan untuk makhluk-Nya yang terbaik yaitu nabi kita Muhammad SAW. adalah dakwah. Allah SWT ta’ala berfirman,
+
+يَا أَيُّهَا النَّبِيُّ إِنَّا أَرْسَلْنَاكَ شَاهِدًا وَمُبَشِّرًا وَنَذِيرًا
+
+“Wahai Nabi, Sesungguhnya Kami mengutusmu untuk Jadi saksi, dan pembawa kabar gembira dan pemberi peringatan” (QS. Al-Ahzab: 45)
+
+Bahkan dakwah adalah wasiat para Rasul untuk pengikut-pengikut mereka, Nabi Muhammad SAW. bersabda kepada Muadz bin Jabal, “Sungguh engkau akan mendatangi sekelompok ahli kitab, maka hendaknya yang pertama kali kau dakwahkan kepada mereka adalah persaksian bahwa tidak ada sesembahan yang berhak disembah melainkan Allah, dan aku adalah utusan Allah SWT.” (HR. Bukhari dan Muslim)
+
+Jamaah jumat rakhimakumullah
+
+Berikut ini ada beberapa poin penting yang berkaitan dengan masalah dakwah:
+
+Pertama, amal yang baik di sisi Allah SWT adalah usaha keras untuk menyelamatkan manusia dari kegelapan menuju hidayah. Karena ucapan seorang da‘i adalah sebaik-baik ucapan dalam timbangan Allah SWT. Allah SWT berfirman yang artinya, “Siapakah yang lebih baik perkataannya daripada orang yang menyeru kepada Allah, mengerjakan amal yang saleh, dan berkata: “Sesungguhnya aku termasuk orang-orang yang berserah diri?” (QS. Fushilat: 33)
+
+Setiap amal yang dilakukan oleh orang yang mendapatkan hidayah di tangan kita, maka kita pun akan mendapatkan bagian pahalanya. Sebagai contoh, adalah Abu Bakar menjadi sebab Utsman bin Affan ra. masuk Islam dan Utsman mempersiapkan kebutuhan seluruh pasukan dalam perang Tabuk, dan orang-orang yang mengikuti perang Tabuk mendapatkan kedudukan yang berlipat-lipat, Nabi Muhammad SAW. Bersabda
+
+مَنْ دَعَا إِلَى هُدًى كَانَ لَهُ مِنَ الأَجْرِ مِثْلُ أُجُورِ مَنْ تَبِعَهُ لاَ يَنْقُصُ ذَلِكَ مِنْ أُجُورِهِمْ شَيْئًا
+
+“Barangsiapa yang menunjukkan kepada kebaikan, maka untuknya semisal pahala pelakunya tidak dikurangi sedikitpun dari pahalanya.” (HR. Muslim)
+
+Kedua, ketidak fasihan dalam berbicara bukanlah penghalang untuk berdakwah. Nabi Musa adalah orang yang sulit berbicara, oleh karena itu beliau berdoa kepada Allah SWT agar menghilangkan problem tersebut, dengan do’a yang diabadikan Allah SWT di dalam al-qur’an surat Thaha yang berbunyi
+
+وَاحْلُلْ عُقْدَةً مِّن لِّسَانِي يَفْقَهُوا قَوْلِي
+
+“Dan lepaskanlah kekakuan dari lidahku. supaya mereka mengerti perkataanku.” (QS. Thaha: 27-28)
+
+Ketiga, dakwah tidaklah terbatas ceramah di atas mimbar, karena dakwah itu sangat beragam. Menasehati seseorang dengan sembunyi-sembunyi adalah dakwah, seorang ayah menasehati anaknya untuk melaksanakan sholat lima waktu juga dakwah, mendukung dan memudahkan jalan-jalan dakwah juga dakwah. Dengan pemahaman seperti ini maka seluruh komponen masyarakat bisa menjadi pendakwah baik dengan harta, tulisan atau lisan.
+
+Keempat, dakwah hendaknya menempuh jalan para nabi dalam berdakwah, yang pertama kali di dakwahkan para nabi adalah akidah yang benar.
+
+Dalam berdakwah hendaklah kita sejalan dengan kaidah-kaidah syariat dan jangan menodai dakwah dengan melakukan kemaksiatan.
+
+Kelima, telah menjadi sunatullah bahwa populasi orang yang bermaksiat itu lebih banyak daripada orang yang taat. Allah SWT berfirman
+
+وَإِن تُطِعْ أَكْثَرَ مَن فِي الأَرْضِ يُضِلُّوكَ عَن سَبِيلِ اللَّهِ إِن يَتَّبِعُونَ إِلاَّ الظَّنَّ وَإِنْ هُمْ إِلاَّ يَخْرُصُونَ
+
+“Dan jika kamu menuruti kebanyakan orang-orang yang di muka bumi ini, niscaya mereka akan menyesatkanmu dari jalan Allah SWT. mereka tidak lain hanyalah mengikuti persangkaan belaka, dan mereka tidak lain hanyalah berdusta (terhadap Allah) (QS. Al-An’am: 116)
+
+Keenam, janganlah menjadikan banyaknya orang-orang yang menerima dakwah sebagai tolak ukur keberhasilan dakwah. Karena membuka hati seseorang menerima dakwah adalah kewenangan Allah SWT. Tugas pendakwah adalah terbatas menjelaskan, tidak ada kewenangan untuk memberikan hidayah dan mengubah hati seseorang.
+
+Nabi Muhammad bersabda: “Ditunjukkan kepadaku berbagai umat maka aku melihat seorang Nabi dan bersamanya sekelompok orang, kemudian aku melihat lagi seorang Nabi dan yang menyertainya hanya satu atau dua orang dan aku juga melihat seorang Nabi yang tidak mempunyai pengikut seorang pun.”
+
+Ketujuh, janganlah menunda-nunda untuk menyampaikan pesan-pesan dakwah dalam berbagai waktu dan keadaan. Boleh jadi satu kata yang kita ucapkan menyebabkan orang akan mendapat kebahagiaan atau kita yang mendapat kebahagiaan dengannya sepanjang masa. Nabi Nuh mendakwahi kaumnya siang malam selama bertahun-tahun, Nabi Yusuf pun meski di dalam penjara juga tetap berdakwah.
+
+Kedelapan, do’akan orang yang kita dakwahi tanpa sepengetahuannya, berapa banyak orang yang tulus mendoakan saudaranya menjadikan sebab keadaan saudaranya itu menjadi lebih baik. Al-Muzani mengatakan, “Tidaklah Abu Bakar lebih unggul dari para sahabat yang lain disebabkan puasa dan shalatnya akan tetapi karena sesuatu yang ada dalam hatinya yaitu rasa cinta kepada Allah SWT dan menginginkan kebaikan untuk orang lain.”
+
+Kesembilan, berbuat baik kepada orang lain dan tutur kata yang manis serta akhlak terpuji merupakan penarik simpati hati seseorang, seperti halnya Nabi Muhammad beliau adalah seorang da’i yang memiliki akhlak mulia dan sifat-sifat yang baik, Ibnu Qayyim mengatakan, “Syaikhul Islam Ibnu Taimiyyah adalah seorang yang bersungguh-sungguh untuk memenuhi kebutuhan kaum muslimin.”
+
+Kesepuluh, ketaatan adalah cahaya yang terdapat dalam dada dan memberikan pengaruh terhadap orang yang akan merespon dakwah kita. Maka marilah kita memperbanyak ibadah kepada Allah SWT karena ibadah adalah sebaik-baik sarana untuk mewujudkan apa yang kita inginkan, dan marilah kita perbanyak mengingat Allah, membaca Al-Qur’an dan melaksanakan shalat di kegelapan malam.</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KJj-4a-prb">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43807569149999998" green="0.46764111520000001" blue="0.56284928320000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Menyeru Kepada Alloh SWT" id="Qkd-hc-s63">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="DLa-l4-3O4">
+                                            <connections>
+                                                <segue destination="Lyv-bt-My4" kind="modal" id="6J9-iH-ds4"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pa8-mS-jKe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3327.5362318840585" y="138.58695652173915"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jn3-Wy-w6K">
+            <objects>
+                <viewController id="YvF-sw-j58" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aIl-i0-Qyb"/>
+                        <viewControllerLayoutGuide type="bottom" id="8gw-Gw-pCr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g6m-qb-BFU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iphone-7-plus-wallpaper-blue-sky-stars.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0r3-Fs-OwB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="foT-as-6q2">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.13597387075424194" green="0.25724723935127258" blue="0.37101572751998901" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Jamaah Jumat yang dirahmati Allah Subhanahu wa Ta’ala…
+
+Alhamdulillah, kembali kita memuji dan bersyukur kepada Allah Subhanahu wa Ta’ala. Di kesempatan, di waktu yang mulia ini kembali Allah Subhanahu wa Ta’ala mempertemukan kita, mengumpulkan kita di satu tempat. Di salah satu dari rumah Allah Subhanahu wa Ta’ala. Bukan karena dunia yang mengumpulkan kita. Bukan karena senasab atau bukan karena satu keturunan kita bertemu di tempat yang penuh berkah ini. Tapi kita bertemu karena mencari ridho Allah Subhanahu wa Ta’ala dan merealisasikan perintah Allah Subhanahu wa Ta’ala.
+
+Jamaah jumat yang dirahmati oleh Allah Subhanahu wa Ta’ala...
+
+Umur yang Allah Subhanahu wa Ta’ala berikan kepada kita ternyata di suatu saat nanti, di akhirat kelak nanti akan dimintai oleh Allah Subhanahu wa Ta’ala pertanggungjawabannya.  Dalam hadits yang shahih yang diriwayatkan oleh Imam At Tirmidzi dari Anas bin Malik radhiyallahu ‘anhu bahwasanya Rasulullah shalallahu ‘alaihi wa sallam bersabda:
+
+«لاَ تَزُولُ قَدَمَا عَبْدٍ يَوْمَ الْقِيَامَةِ حَتَّى يُسْأَلَ عَنْ عُمْرِهِ فِيمَا أَفْنَاهُ وَعَنْ عِلْمِهِ فِيمَا فَعَلَ وَعَنْ مَالِهِ مِنْ أَيْنَ اكْتَسَبَهُ وَفِيمَا أَنْفَقَهُ وَعَنْ جِسْمِهِ فِيمَا أَبْلاَهُ»
+
+ “Tidak akan bergeser dua telapak kaki seorang hamba pada hari kiamat sampai dia ditanya (dimintai pertanggungjawaban) tentang umurnya kemana dihabiskannya, tentang ilmunya bagaimana dia mengamalkannya, tentang hartanya; dari mana diperolehnya dan ke mana dibelanjakannya, serta tentang tubuhnya untuk apa digunakannya” (HR. at-Tirmidzi)
+
+Jamaah Jumat yang dirahmati oleh Allah Subhanahu wa Ta’ala..
+
+Umur dan kesempatan yang Allah Subhanahu wa Ta’ala berikan kepada kita di dunia ini ternyata di suatu saat akan ditanyakan oleh Allah Subhanahu wa Ta’ala. Bahkan di dalam Surah Faathir Allah Subhanahu wa Ta’ala menceritakankan kepada kita tentang orang-orang kafir yang dimasukkan ke dalam neraka dan Allah Subhanahu wa Ta’ala berhujjah dengan umur dan kesempatan yang diberikan kepada mereka. Di ayat 36 dari Surah Faathir Allah Subhanahu wa Ta’ala berfirman:
+
+وَالَّذِينَ  كَفَرُوا۟  لَهُمْ  نَارُ  جَهَنَّمَ  لَا  يُقْضَىٰ  عَلَيْهِمْ  فَيَمُوتُوا۟  وَلَا  يُخَفَّفُ  عَنْهُم  مِّنْ  عَذَابِهَا  ۚ  كَذٰلِكَ  نَجْزِى  كُلَّ  كَفُورٍ  ﴿فاطر:٣٦﴾
+
+  “Dan orang-orang kafir bagi mereka neraka Jahannam. Mereka tidak dibinasakan sehingga mereka mati dan tidak (pula) diringankan dari mereka azabnya. Demikianlah Kami membalas setiap orang yang sangat kafir.” (QS. Faathir: 36)
+
+Di ayat 37 Allah Subhanahu wa Ta’ala melanjutkan:
+
+ وَهُمْ  يَصْطَرِخُونَ  فِيهَا  رَبَّنَآ  أَخْرِجْنَا  نَعْمَلْ  صٰلِحًا  غَيْرَ  الَّذِى  كُنَّا  نَعْمَلُ  ۚ
+
+ “Dan mereka berteriak di dalam neraka itu: “Ya Tuhan kami, keluarkanlah kami niscaya kami akan mengerjakan amal yang saleh berlainan dengan yang telah kami kerjakan”.
+
+Kemudian Allah Membantah mereka:
+
+أَوَلَمْ  نُعَمِّرْكُم  مَّا  يَتَذَكَّرُ  فِيهِ  مَن  تَذَكَّرَ  وَجَآءَكُمُ  النَّذِيرُ  ۖ  فَذُوقُوا۟  فَمَا  لِلظّٰلِمِينَ  مِن  نَّصِيرٍ
+
+ “Dan apakah Kami tidak memanjangkan umurmu dalam masa yang cukup untuk berfikir bagi orang yang mau berfikir, dan (apakah tidak) datang kepada kamu pemberi peringatan? maka rasakanlah (azab Kami) dan tidak ada bagi orang-orang yang zalim seorang penolongpun.”
+
+Jama’ah jumat yang dirahmati oleh Allah Subhanahu wa Ta’ala…
+
+Kesempatan dan umur yang Allah Subhanahu wa Ta’ala berikan kepada kita ternyata suatu saat akan ditanyakan. Umur umat Nabi Muhammad shalallahu ‘alaihi wa sallam yang apabila dibandingkan dengan umur umat-umat terdahulu, umur umat Nabi Muhammad shalallahu ‘alaihi wa sallam lebih relatif singkat. Sebagaimana dalam hadits Rasulullah shalallahu ‘alaihi wa sallam bersabda:
+
+“Umur umatku adalah antara 60 hingga 70 tahun. Sedikit dari mereka yang melebihi itu” (HR. Imam at-Turmudzy, Ibnu Majah, Ibnu Hibban dan Hakim)
+
+Umur yang 60 atau 70 tahun ini bila dibandingkan dengan umur umat-umat terdahulu maka sangat pendek. Cobalah kita lihat dan baca surah Al-‘Ankabut yang Allah Subhanahu wa Ta’ala menceritakan kepada kita tentang Nabi Nuh.
+
+وَلَقَدْ  أَرْسَلْنَا  نُوحًا  إِلَىٰ  قَوْمِهِۦ  فَلَبِثَ  فِيهِمْ  أَلْفَ  سَنَةٍ  إِلَّا  خَمْسِينَ  عَامًا
+
+ “Dan sesungguhnya Kami telah mengutus Nuh kepada kaumnya, maka ia tinggal di antara mereka seribu tahun kurang lima puluh tahun…” (QS. al-‘Ankabut: 14)
+
+Atau dengan bahasa kita 950 tahun. 950 tahun bila dibandingkan dengan 60 tahun, dibandingkan dengan 70 tahun sungguh sangat pendek umur umat ini. Dalam riwayat disebutkan bahwa Nabi Musa ‘alaihis salam mendakwahi Raja  Fir’aun laknatullah ‘alaihi selama kurang lebih 500 tahun. Maka bila dibandingkan dengan umur umat ini sangatlah pendek. Namun Maha Kasih Sayangnya Allah Subhanahu wa Ta’ala terhadap umat ini walaupun dihitung dari segi jauh dan tahun umat ini umurnya sangat pendek namun pada hakikatnya bila mereka memanfaatkan dan memaksimalkan kesempatan yang Allah Subhanahu wa Ta’ala berikan kepadanya umur mereka bisa melebihi 1000 tahun dari segi hakikat atau dari segi kualitas.
+
+Misalnya di bulan Ramadhan. Allah Subhanahu wa Ta’ala menceritakan dalam satu surah yaitu Surah Al-Qadr, dimana ada suatu malam yang lebih baik daripada 1000 bulan atau kurang lebih 83 tahun 4 bulan. Kalau kita yang telah melewati kesempatan itu mengisi dengan amalan-amalan yang dicintai dan diridhoi oleh Allah Subhanahu wa Ta’ala. Satu malam bagaikan 1000 bulan. Satu malam bagaikan 83 tahun 4 bulan. Kalau dua kali kita melewati, dua tahun kita melewati  Ramadhan maka sudah 160 tahun lebih. Kalau 20 tahun, umur kita mungkin 40 tahun, 20 tahun pertama di habiskan dengan senda gurau dihabiskan dengan berfoya-foya. Kemudian 20 tahun yang terakhir barulah diisi dengan penuh ibadah kepada Allah Subhanahu wa Ta’ala. 20 kali kita bertemu dengan lailatul qadr. 20 tahun kita bertemu dengan Ramadhan dan kita manfaatkan kesempatan itu dengan baik maka seolah-olah sebenarnya kalau dihitung 20 x 83  berarti 1660 lebih. Kalau 20 tahun kita lewati dan kita manfaatkan kesempatan yang Allah Subhanahu wa Ta’ala berikan kepada kita maka seolah-olah umur kita melebihi 1000 tahun.
+
+Jamaah Jumat yang dirahmati oleh Allah Subhanahu wa Ta’ala…
+
+Dalam hadits yang lain sebagai kasih sayang Allah Subhanahu wa Ta’ala  dan begitu pula Rasulullah shalallahu ‘alaihi wa sallam kepada umatnya ini, Allah Subhanahu wa Ta’ala menyiapkan kepada umat ini amalan-amalan, perbuatan-perbuatan yang apabila diamalkan pahalanya akan terus mengalir walaupun dia sudah menjadi tanah. Walaupun dia sudah berada di alam kubur. Perjalanan manusia berhenti setelah berpisahnya antara ruh dan jazad. Namun  ada beberapa amalan yang pahalanya tetap mengalir, tetap berjalan walaupun manusia itu sudah berada di alam barzakh. Hadits yang sangat masyhur yang sering kita dengarkan, dari Abu Hurairah radhiyallahu ‘anhu bahwa Rasululllah shalallahu ‘alaihi wa sallam bersabda :
+
+إذا مات الإنسان انقطع عنه عمله إلا من ثلاثة إلا من صدقة جارية أو علم ينتفع به أو ولد صالح يدعو له
+
+ “Apabila Manusia meninggal Dunia maka terputuslah amalnya kecuali karena tiga hal, Shadaqah jariyah, Ilmu yang bermanfaat, dan anak shaleh yang mendoakannya”.
+
+Ini hadits yang  masyhur dan shahih dan diriwayatkan oleh Bukhari dan Muslim dan Imam Malik dalam Al Muwatha’. Namun ada hadits yang lain, hadits marfu’ dari Anas bin Malik yang diriwayatkan oleh Imam Al Bazzar  dan  Abu Said bin Hilya, Rasulullah shalallahu ‘alaihi wa sallam bersabda:
+
+ “Tujuh amalan yang pahalanya mengalir bagi seorang hamba meski dia telah dimakamkan di kuburan; mengajarkan ilmu, mengalirkan sungai, menggali sumur, menanam pohon kurma, membangun masjid, mewariskan (mewakafkan mushhaf al Qur’an), meninggalkan anak yang memohonkan ampunan untuknya setelah ia wafat.”
+
+Jama’ah jumat yang dirahmati oleh Allah Subhanahu wa Ta’ala…
+
+Intinya adalah bagaimana memanfaatkan, memaksimalkan kesempatan dan umur yang Allah Subhanahu wa Ta’ala berikan kepada kita. Meskipun Umur yang Allah Subhanahu wa Ta’ala berikan kepada kita sangatlah pendek bila dibandingkan dengan umur orang-orang terdahulu yang kita sebutkan tadi. Namun, Allah Subhanahu wa Ta’ala dan Rasul-Nya shalallahu ‘alaihi wa sallam memberikan kepada kita beberapa amalan yang disebutkan dalam hadits tersebut,  yang pahalanya terus mengalir.  Hal ini merupakan kesempatan untuk mengamalkan semua yang disebutkan dalam hadits tersebut atau memilih salah satunya. Minimal ada salah satu dari tujuh. Kalau kita tidak  memiliki uang banyak, tidak memiliki banyak harta, maka ada satu yang tidak membutuhkan harta yaitu menyampaikan ilmu syar’i yang telah  diketahui. Mari dakwahkan ilmu syar’i yang telah kita ketahui! maka insya Allah itu merupakan amal jariyah yang pahalanya akan terus mengalir sampai hari kiamat nanti.
+
+Ketika kita menyampaikan sebuah hadits yang walaupun bersifat fadhilah amal, kemuliaan,  dan keutamaan beberapa amalan kemudian ada  yang mendengarkan, memahami, dan kemudian mengamalkannya,maka pahalanya akan kita dapatkan. Pahalanya terus mengalir meskipun kita telah meningga dunia.  Apalagi kalau kita mengajarkan kepada keluarga, istri dan anak-anak kita. Walaupun kita telah bertahun-tahun meninggalkan dunia ini, tetapi pahala tetap mengalir insya Allah. karena adanya orang-orang yang  mengamalkan apa yang  telah kita ajarkan sebelumnya.
+
+Jama’ah Jum’at yang dirahmati oleh Allah Subhanahu wa Ta’ala…
+
+Sebelum menutup khutbah kedua ini, saya ingin menyampaikan sebuah kisah permisalan. Ada seorang nelayan yang kebiasaannya mendapatkan atau mengambil ikan di laut kemudian dijual ke pasar. Penghasilannya adalah dari mencari ikan di laut. Di satu saat ia mendapatkan ikan namun ia tidak menjual ikan tersebut dibawa ke rumah setelah sampai di rumah ia membelah ikan itu dan mendapatkan dalam ikan itu sebuah mutiara. Sebuah mutiara yang sangat mahal. Mutiara yang sangat cantik. Ketika dia melihat mutiara itu, istri si nelayan kemudian berangan-angan akan membeli rumah, akan membeli mobil dan akan membeli yang lainnya.untuk kebutuhannya dan tidak lagi menjadi nelayan. Kemudian ia pun ke tetangganya yang mana tetangganya adalah seorang penjual emas setelah diperlihatkan berapa harga kira-kira harga dari mutiara itu sang penjual emas itu mengatakan bahwa mutiara itu adalah mutiara yang asli, yang sangat mahal, seluruh benda yang ada di rumah saya, emas yang ada di rumah saya bahkan seluruh isi rumah saya tidak mampu untuk menghargai mutiara yang anda dapatkan. Maka pergilah ke fulan karena ia  lebih kaya dari saya.Kemudian ia berangkat ke si fulan, penjual emas yang lebih kaya dari yang pertama. Namun jawabannya sama bahwa mutiara yang anda bawa adalah mutiara yang sangat mahal yang kami tidak mampu membelinya. Kemudian tinggal satu solusi, seorang raja yang memiliki harta yang sangat banyak mudah-mudahan ia bisa menghargai mutiara yang anda dapatkan. Ketika sampai dihadapan raja dan ia memperlihatkan mutiara itu, raja pun mengatakan, “Sebenarnya saya juga tidak mampu memberikan harga yang tepat  pada mutiara yang anda bawa. Tapi saya memberikan anda pilihan, saya memiliki rumah yang memiliki tiga ruangan yang mana di dalam rumah itu ruangan pertama dipenuhi dengan emas dan perhiasan. Ruangan yang kedua dipenuhi dengan kasur yang empuk dan yang ketiga diisi dengan makanan yang lezat. Maka sang raja memberikan kesempatan kepada nelayan tersebut selama tujuh jam untuk mengeluarkan seluruh isi dari rumah itu. Apapun yang dikeluarkan maka itu menjadi haknya akan menjadi harga dari mutiara itu. Maka nelayan itu berkata tujuh jam terlalu panjang, satu jam saja sudah cukup untuk mengeluarkan semua isi dari rumah itu. Tapi raja mengatakan tidak, tetap tujuh jam. Anda saya berikan kesempatan untuk mengeluarkan isi dari rumah itu selama tujuh jam. Sehingga orang ini masuk ke dalam rumah, ketika masuk ke dalam rumah ia melihat ada  emas, ada kasur yang sangat empuk, ada  makanan yang lezat yang ia tidak pernah dapatkan sebelumnya. Maka setelah sampai pada ruangan pertama, ruangan emas, dia mengatakan waktunya  masih lama, masih tujuh jam, belakangan saja. Kemudian sampai ke kasur yang empuk dia mengatakan nanti saja. Sampai kepada makanan dia tertarik dan mengatakan saya sudah berjam-jam melalui perjalanan menuju ke sini dan saya sangat lapar dan makanan ini saya  tidak pernah  makan sebelumnya maka lebih baik saya makan dulu. Maka dia pun makan dengan sekenyang-kenyangnya dan satu jam berlalu. Setelah satu jam berlalu ia kembali ke ruangan kedua dia mengatakan ini adalah kasur yang sangat empuk yang mana saya tidak pernah tidur di atas kasur seempuk ini maka ia pun membaringkan badannya  di atas kasur yang  empuk itu dan ia tertidur dan ia tidak terbangun kecuali setelah mendengarkan peringatan dari sang algojo yang mengatakan, “anda harus keluar dari rumah ini karena sudah lewat tujuh jam”. Dan ia pun keluar dari rumah tanpa membawa emas dan tempat tidur. Yang dibawa hanyalah makanan yang dua jam kemudian akan berubah menjadi kotoran.
+
+Maksud dari kisah ini adalah; mutiara tadi adalah nyawa kita. Mutiara tadi itulah arwah kita yang sangat mahal yang tidak bisa dihargai dengan dunia dan seluruh isinya. Dunia atau rumah tadi adalah dunia kita yang diisi dengan amal shalih yaitu emas. Yang diisi dengan kelalaian yaitu kasur. Yang diisi dengan syahwat yaitu makanan. Dan tujuh jam tadi adalah merupakan  kesempatan dan umur kita. Tujuh jam kita diberikan  untuk masuk ke dalam rumah yang mana yang akan kita keluarkan. Emas yang merupakan amal sholih atau tempat tidur kita habiskan waktu kita untuk kelalaian atau makanan,  kita tinggal memilih.
+
+Mudah-mudahan ada manfaatnya. Kita berdoa kepada Allah Subhanahu wa Ta’ala mudah-mudahan diantara tujuh amalan yang kita sebutkan tadi ada minimal salah satu darinya yang menjadi amalan kita sehingga ketika kita meninggalkan dunia ini pahala kita masih tetap kita dapatkan.</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4DM-TN-CDe">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43807569149999998" green="0.46764111520000001" blue="0.56284928320000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Memanfaatkan Umur Yang Singkat" id="BOk-Zf-OFd">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="Pi3-Rb-8Zj">
+                                            <connections>
+                                                <segue destination="Lyv-bt-My4" kind="modal" id="KRz-mH-EkK"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oMy-IC-LlJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3982.6086956521744" y="138.58695652173915"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="85878_forward_512x512.png" width="512" height="512"/>
+        <image name="Screen Shot 2017-09-21 at 8.26.00 PM.png" width="197" height="165"/>
+        <image name="Tema Khotbah.png" width="244" height="24"/>
+        <image name="iphone-7-plus-wallpaper-blue-sky-stars.jpg" width="1242" height="2208"/>
+        <image name="rewind-png-image-59000.png" width="512" height="512"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="ZNM-Ba-gpK"/>
+    </inferredMetricsTieBreakers>
+</document>

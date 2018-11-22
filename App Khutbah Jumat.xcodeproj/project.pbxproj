@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64785C4A1F73C0320056B737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64785C491F73C0320056B737 /* AppDelegate.swift */; };
+		64785C4C1F73C0320056B737 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64785C4B1F73C0320056B737 /* ViewController.swift */; };
+		64785C4F1F73C0320056B737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64785C4D1F73C0320056B737 /* Main.storyboard */; };
+		64785C511F73C0320056B737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64785C501F73C0320056B737 /* Assets.xcassets */; };
+		64785C541F73C0320056B737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64785C521F73C0320056B737 /* LaunchScreen.storyboard */; };
+		64785C5F1F73C0330056B737 /* App_Khutbah_JumatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64785C5E1F73C0330056B737 /* App_Khutbah_JumatTests.swift */; };
+		64785C6A1F73C0330056B737 /* App_Khutbah_JumatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64785C691F73C0330056B737 /* App_Khutbah_JumatUITests.swift */; };
+		64867E4B1F73F598003EE467 /* Screen Shot 2017-09-21 at 8.26.00 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 64867E4A1F73F598003EE467 /* Screen Shot 2017-09-21 at 8.26.00 PM.png */; };
+		64867E4F1F73F81A003EE467 /* iphone-7-plus-wallpaper-blue-sky-stars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64867E4E1F73F81A003EE467 /* iphone-7-plus-wallpaper-blue-sky-stars.jpg */; };
+		64867E511F73F9A9003EE467 /* Tema Khotbah.png in Resources */ = {isa = PBXBuildFile; fileRef = 64867E501F73F9A9003EE467 /* Tema Khotbah.png */; };
+		64867E531F73FBD2003EE467 /* rewind-png-image-59000.png in Resources */ = {isa = PBXBuildFile; fileRef = 64867E521F73FBD2003EE467 /* rewind-png-image-59000.png */; };
+		64867E551F73FC3D003EE467 /* 85878_forward_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = 64867E541F73FC3D003EE467 /* 85878_forward_512x512.png */; };
+		64FD97041F74F371001AFB09 /* Photo on 15-9-17 at 1.56 PM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64FD97031F74F371001AFB09 /* Photo on 15-9-17 at 1.56 PM.jpg */; };
+		64FD97081F74F5BE001AFB09 /* irham ahmad rozan.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FD97071F74F5BE001AFB09 /* irham ahmad rozan.png */; };
+		64FD970C1F750C41001AFB09 /* @irhmahmdrzn25.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FD970B1F750C41001AFB09 /* @irhmahmdrzn25.png */; };
+		64FD970E1F750C4C001AFB09 /* about developer.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FD970D1F750C4C001AFB09 /* about developer.png */; };
+		64FD97101F750C52001AFB09 /* blue-facebook-social-icon--icon-search-engine-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FD970F1F750C52001AFB09 /* blue-facebook-social-icon--icon-search-engine-0.png */; };
+		64FD97121F750C5E001AFB09 /* Born in Jakarta, 14.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FD97111F750C5E001AFB09 /* Born in Jakarta, 14.png */; };
+		64FD97141F750C67001AFB09 /* Gmail_Icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FD97131F750C67001AFB09 /* Gmail_Icon1.png */; };
+		64FD97161F750C6E001AFB09 /* instagram_PNG1.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FD97151F750C6E001AFB09 /* instagram_PNG1.png */; };
+		64FD97181F750C83001AFB09 /* irhmahmdrzn251.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FD97171F750C83001AFB09 /* irhmahmdrzn251.png */; };
+		64FD971A1F750C8A001AFB09 /* LINE_icon02.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FD97191F750C8A001AFB09 /* LINE_icon02.png */; };
+		64FD971C1F750C90001AFB09 /* slankers.ozan@gmail.1.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FD971B1F750C90001AFB09 /* slankers.ozan@gmail.1.png */; };
+		64FD971E1F750E76001AFB09 /* Irham Ahmad Rozan1.png in Resources */ = {isa = PBXBuildFile; fileRef = 64FD971D1F750E76001AFB09 /* Irham Ahmad Rozan1.png */; };
+		64FD97201F750E9E001AFB09 /* ramadan-background-19745049.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 64FD971F1F750E9E001AFB09 /* ramadan-background-19745049.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64785C5B1F73C0330056B737 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64785C3E1F73C0320056B737 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64785C451F73C0320056B737;
+			remoteInfo = "App Khutbah Jumat";
+		};
+		64785C661F73C0330056B737 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64785C3E1F73C0320056B737 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64785C451F73C0320056B737;
+			remoteInfo = "App Khutbah Jumat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64785C461F73C0320056B737 /* App Khutbah Jumat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Khutbah Jumat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64785C491F73C0320056B737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64785C4B1F73C0320056B737 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64785C4E1F73C0320056B737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64785C501F73C0320056B737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64785C531F73C0320056B737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64785C551F73C0320056B737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64785C5A1F73C0330056B737 /* App Khutbah JumatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App Khutbah JumatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64785C5E1F73C0330056B737 /* App_Khutbah_JumatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Khutbah_JumatTests.swift; sourceTree = "<group>"; };
+		64785C601F73C0330056B737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64785C651F73C0330056B737 /* App Khutbah JumatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App Khutbah JumatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64785C691F73C0330056B737 /* App_Khutbah_JumatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Khutbah_JumatUITests.swift; sourceTree = "<group>"; };
+		64785C6B1F73C0330056B737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64867E4A1F73F598003EE467 /* Screen Shot 2017-09-21 at 8.26.00 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-09-21 at 8.26.00 PM.png"; sourceTree = "<group>"; };
+		64867E4E1F73F81A003EE467 /* iphone-7-plus-wallpaper-blue-sky-stars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone-7-plus-wallpaper-blue-sky-stars.jpg"; sourceTree = "<group>"; };
+		64867E501F73F9A9003EE467 /* Tema Khotbah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tema Khotbah.png"; sourceTree = "<group>"; };
+		64867E521F73FBD2003EE467 /* rewind-png-image-59000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rewind-png-image-59000.png"; sourceTree = "<group>"; };
+		64867E541F73FC3D003EE467 /* 85878_forward_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 85878_forward_512x512.png; sourceTree = "<group>"; };
+		64FD97031F74F371001AFB09 /* Photo on 15-9-17 at 1.56 PM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Photo on 15-9-17 at 1.56 PM.jpg"; sourceTree = "<group>"; };
+		64FD97071F74F5BE001AFB09 /* irham ahmad rozan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "irham ahmad rozan.png"; sourceTree = "<group>"; };
+		64FD970B1F750C41001AFB09 /* @irhmahmdrzn25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "@irhmahmdrzn25.png"; sourceTree = "<group>"; };
+		64FD970D1F750C4C001AFB09 /* about developer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about developer.png"; sourceTree = "<group>"; };
+		64FD970F1F750C52001AFB09 /* blue-facebook-social-icon--icon-search-engine-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-facebook-social-icon--icon-search-engine-0.png"; sourceTree = "<group>"; };
+		64FD97111F750C5E001AFB09 /* Born in Jakarta, 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Born in Jakarta, 14.png"; sourceTree = "<group>"; };
+		64FD97131F750C67001AFB09 /* Gmail_Icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gmail_Icon1.png; sourceTree = "<group>"; };
+		64FD97151F750C6E001AFB09 /* instagram_PNG1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram_PNG1.png; sourceTree = "<group>"; };
+		64FD97171F750C83001AFB09 /* irhmahmdrzn251.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = irhmahmdrzn251.png; sourceTree = "<group>"; };
+		64FD97191F750C8A001AFB09 /* LINE_icon02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LINE_icon02.png; sourceTree = "<group>"; };
+		64FD971B1F750C90001AFB09 /* slankers.ozan@gmail.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slankers.ozan@gmail.1.png"; sourceTree = "<group>"; };
+		64FD971D1F750E76001AFB09 /* Irham Ahmad Rozan1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Irham Ahmad Rozan1.png"; sourceTree = "<group>"; };
+		64FD971F1F750E9E001AFB09 /* ramadan-background-19745049.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ramadan-background-19745049.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64785C431F73C0320056B737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64785C571F73C0330056B737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64785C621F73C0330056B737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6462DF5A1F7B54EF00AFF4E9 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				64FD970B1F750C41001AFB09 /* @irhmahmdrzn25.png */,
+				64FD971D1F750E76001AFB09 /* Irham Ahmad Rozan1.png */,
+				64FD970D1F750C4C001AFB09 /* about developer.png */,
+				64FD970F1F750C52001AFB09 /* blue-facebook-social-icon--icon-search-engine-0.png */,
+				64FD97111F750C5E001AFB09 /* Born in Jakarta, 14.png */,
+				64FD97131F750C67001AFB09 /* Gmail_Icon1.png */,
+				64FD97151F750C6E001AFB09 /* instagram_PNG1.png */,
+				64FD97171F750C83001AFB09 /* irhmahmdrzn251.png */,
+				64867E4A1F73F598003EE467 /* Screen Shot 2017-09-21 at 8.26.00 PM.png */,
+				64FD97191F750C8A001AFB09 /* LINE_icon02.png */,
+				64867E501F73F9A9003EE467 /* Tema Khotbah.png */,
+				64FD971B1F750C90001AFB09 /* slankers.ozan@gmail.1.png */,
+				64FD97071F74F5BE001AFB09 /* irham ahmad rozan.png */,
+				64867E521F73FBD2003EE467 /* rewind-png-image-59000.png */,
+				64867E541F73FC3D003EE467 /* 85878_forward_512x512.png */,
+				64867E4E1F73F81A003EE467 /* iphone-7-plus-wallpaper-blue-sky-stars.jpg */,
+				64FD971F1F750E9E001AFB09 /* ramadan-background-19745049.jpg */,
+				64FD97031F74F371001AFB09 /* Photo on 15-9-17 at 1.56 PM.jpg */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		64785C3D1F73C0320056B737 = {
+			isa = PBXGroup;
+			children = (
+				64785C481F73C0320056B737 /* App Khutbah Jumat */,
+				64785C5D1F73C0330056B737 /* App Khutbah JumatTests */,
+				64785C681F73C0330056B737 /* App Khutbah JumatUITests */,
+				64785C471F73C0320056B737 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64785C471F73C0320056B737 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64785C461F73C0320056B737 /* App Khutbah Jumat.app */,
+				64785C5A1F73C0330056B737 /* App Khutbah JumatTests.xctest */,
+				64785C651F73C0330056B737 /* App Khutbah JumatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64785C481F73C0320056B737 /* App Khutbah Jumat */ = {
+			isa = PBXGroup;
+			children = (
+				6462DF5A1F7B54EF00AFF4E9 /* Image */,
+				64785C491F73C0320056B737 /* AppDelegate.swift */,
+				64785C4B1F73C0320056B737 /* ViewController.swift */,
+				64785C4D1F73C0320056B737 /* Main.storyboard */,
+				64785C501F73C0320056B737 /* Assets.xcassets */,
+				64785C521F73C0320056B737 /* LaunchScreen.storyboard */,
+				64785C551F73C0320056B737 /* Info.plist */,
+			);
+			path = "App Khutbah Jumat";
+			sourceTree = "<group>";
+		};
+		64785C5D1F73C0330056B737 /* App Khutbah JumatTests */ = {
+			isa = PBXGroup;
+			children = (
+				64785C5E1F73C0330056B737 /* App_Khutbah_JumatTests.swift */,
+				64785C601F73C0330056B737 /* Info.plist */,
+			);
+			path = "App Khutbah JumatTests";
+			sourceTree = "<group>";
+		};
+		64785C681F73C0330056B737 /* App Khutbah JumatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64785C691F73C0330056B737 /* App_Khutbah_JumatUITests.swift */,
+				64785C6B1F73C0330056B737 /* Info.plist */,
+			);
+			path = "App Khutbah JumatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64785C451F73C0320056B737 /* App Khutbah Jumat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64785C6E1F73C0330056B737 /* Build configuration list for PBXNativeTarget "App Khutbah Jumat" */;
+			buildPhases = (
+				64785C421F73C0320056B737 /* Sources */,
+				64785C431F73C0320056B737 /* Frameworks */,
+				64785C441F73C0320056B737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "App Khutbah Jumat";
+			productName = "App Khutbah Jumat";
+			productReference = 64785C461F73C0320056B737 /* App Khutbah Jumat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64785C591F73C0330056B737 /* App Khutbah JumatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64785C711F73C0330056B737 /* Build configuration list for PBXNativeTarget "App Khutbah JumatTests" */;
+			buildPhases = (
+				64785C561F73C0330056B737 /* Sources */,
+				64785C571F73C0330056B737 /* Frameworks */,
+				64785C581F73C0330056B737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64785C5C1F73C0330056B737 /* PBXTargetDependency */,
+			);
+			name = "App Khutbah JumatTests";
+			productName = "App Khutbah JumatTests";
+			productReference = 64785C5A1F73C0330056B737 /* App Khutbah JumatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64785C641F73C0330056B737 /* App Khutbah JumatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64785C741F73C0330056B737 /* Build configuration list for PBXNativeTarget "App Khutbah JumatUITests" */;
+			buildPhases = (
+				64785C611F73C0330056B737 /* Sources */,
+				64785C621F73C0330056B737 /* Frameworks */,
+				64785C631F73C0330056B737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64785C671F73C0330056B737 /* PBXTargetDependency */,
+			);
+			name = "App Khutbah JumatUITests";
+			productName = "App Khutbah JumatUITests";
+			productReference = 64785C651F73C0330056B737 /* App Khutbah JumatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64785C3E1F73C0320056B737 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					64785C451F73C0320056B737 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					64785C591F73C0330056B737 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 64785C451F73C0320056B737;
+					};
+					64785C641F73C0330056B737 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 64785C451F73C0320056B737;
+					};
+				};
+			};
+			buildConfigurationList = 64785C411F73C0320056B737 /* Build configuration list for PBXProject "App Khutbah Jumat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64785C3D1F73C0320056B737;
+			productRefGroup = 64785C471F73C0320056B737 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64785C451F73C0320056B737 /* App Khutbah Jumat */,
+				64785C591F73C0330056B737 /* App Khutbah JumatTests */,
+				64785C641F73C0330056B737 /* App Khutbah JumatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64785C441F73C0320056B737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64785C541F73C0320056B737 /* LaunchScreen.storyboard in Resources */,
+				64FD971A1F750C8A001AFB09 /* LINE_icon02.png in Resources */,
+				64FD97041F74F371001AFB09 /* Photo on 15-9-17 at 1.56 PM.jpg in Resources */,
+				64FD97161F750C6E001AFB09 /* instagram_PNG1.png in Resources */,
+				64867E511F73F9A9003EE467 /* Tema Khotbah.png in Resources */,
+				64FD97081F74F5BE001AFB09 /* irham ahmad rozan.png in Resources */,
+				64867E531F73FBD2003EE467 /* rewind-png-image-59000.png in Resources */,
+				64FD970C1F750C41001AFB09 /* @irhmahmdrzn25.png in Resources */,
+				64867E551F73FC3D003EE467 /* 85878_forward_512x512.png in Resources */,
+				64FD970E1F750C4C001AFB09 /* about developer.png in Resources */,
+				64785C511F73C0320056B737 /* Assets.xcassets in Resources */,
+				64FD97181F750C83001AFB09 /* irhmahmdrzn251.png in Resources */,
+				64FD97201F750E9E001AFB09 /* ramadan-background-19745049.jpg in Resources */,
+				64FD97141F750C67001AFB09 /* Gmail_Icon1.png in Resources */,
+				64FD97101F750C52001AFB09 /* blue-facebook-social-icon--icon-search-engine-0.png in Resources */,
+				64785C4F1F73C0320056B737 /* Main.storyboard in Resources */,
+				64867E4B1F73F598003EE467 /* Screen Shot 2017-09-21 at 8.26.00 PM.png in Resources */,
+				64FD971E1F750E76001AFB09 /* Irham Ahmad Rozan1.png in Resources */,
+				64FD971C1F750C90001AFB09 /* slankers.ozan@gmail.1.png in Resources */,
+				64867E4F1F73F81A003EE467 /* iphone-7-plus-wallpaper-blue-sky-stars.jpg in Resources */,
+				64FD97121F750C5E001AFB09 /* Born in Jakarta, 14.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64785C581F73C0330056B737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64785C631F73C0330056B737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64785C421F73C0320056B737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64785C4C1F73C0320056B737 /* ViewController.swift in Sources */,
+				64785C4A1F73C0320056B737 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64785C561F73C0330056B737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64785C5F1F73C0330056B737 /* App_Khutbah_JumatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64785C611F73C0330056B737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64785C6A1F73C0330056B737 /* App_Khutbah_JumatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64785C5C1F73C0330056B737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64785C451F73C0320056B737 /* App Khutbah Jumat */;
+			targetProxy = 64785C5B1F73C0330056B737 /* PBXContainerItemProxy */;
+		};
+		64785C671F73C0330056B737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64785C451F73C0320056B737 /* App Khutbah Jumat */;
+			targetProxy = 64785C661F73C0330056B737 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64785C4D1F73C0320056B737 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64785C4E1F73C0320056B737 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64785C521F73C0320056B737 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64785C531F73C0320056B737 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64785C6C1F73C0330056B737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64785C6D1F73C0330056B737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64785C6F1F73C0330056B737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "App Khutbah Jumat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Apple.App-Khutbah-Jumat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		64785C701F73C0330056B737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "App Khutbah Jumat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Apple.App-Khutbah-Jumat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		64785C721F73C0330056B737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "App Khutbah JumatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Apple.App-Khutbah-JumatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App Khutbah Jumat.app/App Khutbah Jumat";
+			};
+			name = Debug;
+		};
+		64785C731F73C0330056B737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "App Khutbah JumatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Apple.App-Khutbah-JumatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App Khutbah Jumat.app/App Khutbah Jumat";
+			};
+			name = Release;
+		};
+		64785C751F73C0330056B737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "App Khutbah JumatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Apple.App-Khutbah-JumatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "App Khutbah Jumat";
+			};
+			name = Debug;
+		};
+		64785C761F73C0330056B737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "App Khutbah JumatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Apple.App-Khutbah-JumatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "App Khutbah Jumat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64785C411F73C0320056B737 /* Build configuration list for PBXProject "App Khutbah Jumat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64785C6C1F73C0330056B737 /* Debug */,
+				64785C6D1F73C0330056B737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64785C6E1F73C0330056B737 /* Build configuration list for PBXNativeTarget "App Khutbah Jumat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64785C6F1F73C0330056B737 /* Debug */,
+				64785C701F73C0330056B737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64785C711F73C0330056B737 /* Build configuration list for PBXNativeTarget "App Khutbah JumatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64785C721F73C0330056B737 /* Debug */,
+				64785C731F73C0330056B737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64785C741F73C0330056B737 /* Build configuration list for PBXNativeTarget "App Khutbah JumatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64785C751F73C0330056B737 /* Debug */,
+				64785C761F73C0330056B737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64785C3E1F73C0320056B737 /* Project object */;
+}
